@@ -19,6 +19,8 @@ end
     names = mittelmann_instances()
     @test issubset(mittelmann_instances(; benchmark = true), names)
     @test_throws ArgumentError mittelmann_file("no_such_instance")
+    # the AMPL starting point survives (elec_400.mod sets it with `let`)
+    @test length(unique(mittelmann("elec_400").meta.x0)) == 1200
 
     for name in names
         # twod (126M variables, an 8.4 GiB file) is too large for the test run

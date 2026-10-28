@@ -1,970 +1,10 @@
 [NARX_CFy]
-git-tree-sha1 = "931f4769c76acfca49daedb69db4c058de25c6da"
+git-tree-sha1 = "1ff3aaf75a20632fb99e26e9c24153c422eb0024"
 lazy = true
 
     [[NARX_CFy.download]]
-    sha256 = "6f9cd9e381efe8af79473180d3c0c7bd162b2fe0ad52c48e8ae0e6659e459ed6"
+    sha256 = "69a9e9f073f717dd1c08fba0fa207a574ed34c56e0af11a3c4302e92d5df4f1c"
     url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/NARX_CFy.tar.gz"
-
-[Weyl_m0]
-git-tree-sha1 = "c04dff3c16c3009b0b2f523f48f431853bdf150a"
-lazy = true
-
-    [[Weyl_m0.download]]
-    sha256 = "9fdf58f9b5c70a40f8b45a87f1f1293f948afb5f76ac9615ca89404a9734f0de"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/Weyl_m0.tar.gz"
-
-[arki0003]
-git-tree-sha1 = "dd34709cc0fc171fc74f7dd004a763311ab6f83c"
-lazy = true
-
-    [[arki0003.download]]
-    sha256 = "8864f168521744322ea6b2ccdd3fcb1cc227fbc9cf9506e3c39adc08b20ed663"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/arki0003.tar.gz"
-
-[arki0009]
-git-tree-sha1 = "f9ef9bb2f16312350d44e3c451c2d2f1c4bc7689"
-lazy = true
-
-    [[arki0009.download]]
-    sha256 = "ee34ccad8b1182a58db13df77bce1bb3ebc6ce8e50b809253ca6e8ed395818d0"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/arki0009.tar.gz"
-
-[bearing_200]
-git-tree-sha1 = "71566545d3c7d807c62135eb45f6a3e1ff6fcf57"
-lazy = true
-
-    [[bearing_200.download]]
-    sha256 = "e6ec4617043aef986fe635e24c5b8b3386f792d9819817a4f49cc622a23057b6"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/bearing_200.tar.gz"
-
-[bearing_400]
-git-tree-sha1 = "f55abe2caec69bd5fe08057c985689c80bb3f4bb"
-lazy = true
-
-    [[bearing_400.download]]
-    sha256 = "cfee5a65d05f960735549d3326c7614ecefaf12b962a9cfdc42693dd69be29dc"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/bearing_400.tar.gz"
-
-[camshape_1600]
-git-tree-sha1 = "7a07d95b0889909dac87bfc0b7369880e7e7e56c"
-lazy = true
-
-    [[camshape_1600.download]]
-    sha256 = "adb8740aa074e287109a3109fb81996de86c6990b5becfe0bf49c5d87430c078"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/camshape_1600.tar.gz"
-
-[camshape_6400]
-git-tree-sha1 = "a992111d62b7cd220db05f9ddb1b20286c488613"
-lazy = true
-
-    [[camshape_6400.download]]
-    sha256 = "7472d744faba30b7d91b5f99b084c12b86dbeb81895fe99ce14b7aad8db54c5d"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/camshape_6400.tar.gz"
-
-[clnlbeam]
-git-tree-sha1 = "b7c6038201046a0691522c0cec1c9877adb30651"
-lazy = true
-
-    [[clnlbeam.download]]
-    sha256 = "2cf60206d86cd56fd5c0603522b68e84b98de0ac7c49a4e86d29551fcfbd4153"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/clnlbeam.tar.gz"
-
-[cont5_1]
-git-tree-sha1 = "2ec171a8edbd67fc09efc77431bdc8497632f841"
-lazy = true
-
-    [[cont5_1.download]]
-    sha256 = "426329283d57c788fddb1815948bec8a42c4b6303e5567ceed66c6e9a5d5a555"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_1.tar.gz"
-
-[cont5_1_l]
-git-tree-sha1 = "58027b9c2560f1d74fbc6244a23fa7a42345c1c5"
-lazy = true
-
-    [[cont5_1_l.download]]
-    sha256 = "72912d859a330590ebc8e907c25b20f83cf8cc3ae362731aeff966767f3644f3"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_1_l.tar.gz"
-
-[cont5_2_1]
-git-tree-sha1 = "21d5d2366688cc8f8ee8cdda2286ac1c5f0f2c5f"
-lazy = true
-
-    [[cont5_2_1.download]]
-    sha256 = "78e9ed595b2ddacb7274f12de8ed51a53cd03948f60223bf2fd74afd1fc99683"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_1.tar.gz"
-
-[cont5_2_1_l]
-git-tree-sha1 = "80bc5bfc5c33d6f1f6e5f6b378d0ccd7f1be470a"
-lazy = true
-
-    [[cont5_2_1_l.download]]
-    sha256 = "a8c2abe2252e3582e8f9db666b4f43076563b085738144768c2af84075f9342d"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_1_l.tar.gz"
-
-[cont5_2_2]
-git-tree-sha1 = "0688b36057fecab5a432e914ba808524b10e85e0"
-lazy = true
-
-    [[cont5_2_2.download]]
-    sha256 = "595f9ec2a62e31f0e827d7ae0d0e7df7428d4fbd8d64701c71030f299f98c057"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_2.tar.gz"
-
-[cont5_2_2_l]
-git-tree-sha1 = "cd454e8189f7dfe82088caa3c9a4b99cceeb94a1"
-lazy = true
-
-    [[cont5_2_2_l.download]]
-    sha256 = "fdca1a2fe6176fc9fa5599401a25cb9304cbc6c6274e11bf23010020d547473c"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_2_l.tar.gz"
-
-[cont5_2_3]
-git-tree-sha1 = "2b20d212ad202c4729c2c52cf1b979efc2824244"
-lazy = true
-
-    [[cont5_2_3.download]]
-    sha256 = "965c213824679831e07402dd5a71689faee6bfa7df160b48aabaedcf7b9f2462"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_3.tar.gz"
-
-[cont5_2_3_l]
-git-tree-sha1 = "a114149f541e46ce25b185bad0358a6160560d15"
-lazy = true
-
-    [[cont5_2_3_l.download]]
-    sha256 = "88100b2808ca3251723a6e34af77b559473b99eeb1390a9a23708de5a4e959e6"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_3_l.tar.gz"
-
-[cont5_2_4]
-git-tree-sha1 = "f2e1633b2adc6920df53146972aacc9438f852ca"
-lazy = true
-
-    [[cont5_2_4.download]]
-    sha256 = "088336fc009bc85bba0748d94b45f260fa21c5de767a7fd7db82d0113e82f9f2"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_4.tar.gz"
-
-[cont5_2_4_l]
-git-tree-sha1 = "5e0c46683e1c247b1dc745a58275fbe938497487"
-lazy = true
-
-    [[cont5_2_4_l.download]]
-    sha256 = "ff03a4aeef09067a632431d3844cea2756e3a909c3678053a061d35ba05bc061"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_4_l.tar.gz"
-
-[cont_p]
-git-tree-sha1 = "959843e7bab97fa4406d8a84b2e00a71be6a463c"
-lazy = true
-
-    [[cont_p.download]]
-    sha256 = "ceb6bfb3557e8a54c48bf074f90564776c9b36739443624ec93865c8eaa81ba2"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont_p.tar.gz"
-
-[corkscrw]
-git-tree-sha1 = "55080945448a0eb0784ecfacf36a1825678d3539"
-lazy = true
-
-    [[corkscrw.download]]
-    sha256 = "ab91280edba53c96dc1835787a7410a7bc786c933c48a572b41433f964a07ece"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/corkscrw.tar.gz"
-
-[dirichlet120]
-git-tree-sha1 = "1e117aea4612f9eddde5cb6c7554e24f3201aa2f"
-lazy = true
-
-    [[dirichlet120.download]]
-    sha256 = "29c95768bf43931bb33292227344ad6090ef9dd199843533a6e0a26266dd8407"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dirichlet120.tar.gz"
-
-[dirichlet40]
-git-tree-sha1 = "6388efb9143c44cd5644ef917e21c154d7c56b75"
-lazy = true
-
-    [[dirichlet40.download]]
-    sha256 = "1ce62851ccef4faa9e7853a0c7530bb24ddc207fa0c28c4c19d9944f38f07f71"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dirichlet40.tar.gz"
-
-[dirichlet80]
-git-tree-sha1 = "62f36d40431f01cb136814bf94435be7310e11f4"
-lazy = true
-
-    [[dirichlet80.download]]
-    sha256 = "7861ee8f7eda02ed442a52ea50f9a558ee27e16e85b87e44b7747cd050e96bef"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dirichlet80.tar.gz"
-
-[dtoc1nd]
-git-tree-sha1 = "9d526f8bc0f56770e0aea5ecebeace3074ae713d"
-lazy = true
-
-    [[dtoc1nd.download]]
-    sha256 = "4c58973c0e21332841f48ba313a5037c21862c69f16ccac4c2a02206ca2d66c6"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dtoc1nd.tar.gz"
-
-[dtoc2]
-git-tree-sha1 = "07ee77c5c5e8d9b8814f69ad200fd9aea3514ea6"
-lazy = true
-
-    [[dtoc2.download]]
-    sha256 = "91eab6520c79405114a68f52da01b0d7b8b178dd061c2b009e0b8ea46dae5361"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dtoc2.tar.gz"
-
-[elec_200]
-git-tree-sha1 = "b3e93949387922cdcb94bb409ec8caa864622aac"
-lazy = true
-
-    [[elec_200.download]]
-    sha256 = "5ba2c3e027fa26985cabb0a4a03975cc24196ab5a89ff44e2db9c2b7bc99aacc"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/elec_200.tar.gz"
-
-[elec_400]
-git-tree-sha1 = "b2abc20abe91fabf6c63c779d4f7a9d37bd3e98f"
-lazy = true
-
-    [[elec_400.download]]
-    sha256 = "2306514841f1d030f68a420491d33256c4466ef5311b3e3a6d28faf117908a28"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/elec_400.tar.gz"
-
-[ex1_160]
-git-tree-sha1 = "9c515c021be39223cc93389ff682532ee23265ed"
-lazy = true
-
-    [[ex1_160.download]]
-    sha256 = "7fef8f859040aa6fd61553e80ab033f160cf8a3a18a89d410207f15a7ac4a551"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex1_160.tar.gz"
-
-[ex1_320]
-git-tree-sha1 = "7a4fc0ac4a5a86f73eb64d4df7c5bb8659114f09"
-lazy = true
-
-    [[ex1_320.download]]
-    sha256 = "0d31c6b030afb4196e7a1233cdbb2b587984ec472843dd0257fc9143ef989112"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex1_320.tar.gz"
-
-[ex2_160]
-git-tree-sha1 = "b92dfc91f38fc87a4fa919fe2876c042d3a2ef37"
-lazy = true
-
-    [[ex2_160.download]]
-    sha256 = "b7b8d29fb70d7221888319d416b3664de7ea8c37caab814c33f6452982039aa1"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex2_160.tar.gz"
-
-[ex2_320]
-git-tree-sha1 = "76eda61b1c9768ca0c2e181301933d0203cf0a88"
-lazy = true
-
-    [[ex2_320.download]]
-    sha256 = "2fda9b4416812d1f3e14b8f70c5955d982ff51cf21034276ae8de583047e60e1"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex2_320.tar.gz"
-
-[ex3_160]
-git-tree-sha1 = "69b08d60b12ca8d53057f099362591b5380b657e"
-lazy = true
-
-    [[ex3_160.download]]
-    sha256 = "396534f048de22460df998ed1748b577b3d84853d331cfadbf683aa7a084cc81"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex3_160.tar.gz"
-
-[ex3_320]
-git-tree-sha1 = "8b46c56e1553264a891afe1d22981602fe17d74a"
-lazy = true
-
-    [[ex3_320.download]]
-    sha256 = "3ffa3719873bc097066ab8c7500932e5bf5f48fa3d890d4ed7b1c036488ee446"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex3_320.tar.gz"
-
-[ex4_160]
-git-tree-sha1 = "dad02036842497a3d59d89ca991f7d77291bcd66"
-lazy = true
-
-    [[ex4_160.download]]
-    sha256 = "a2a2589a98557ed2168e12fad61d97f6bf2154db4c4e0c946ea2ffbc781e50f1"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_160.tar.gz"
-
-[ex4_2_160]
-git-tree-sha1 = "e9007e7fb4274fac4f9e829442df02c8254f6a57"
-lazy = true
-
-    [[ex4_2_160.download]]
-    sha256 = "d58e81f8825a9b0022f2c0d2eed394fdee6304e8d6ad275518c4c19162835b09"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_2_160.tar.gz"
-
-[ex4_2_320]
-git-tree-sha1 = "44582d1355003eb340a24fdc70fcd1450ca97714"
-lazy = true
-
-    [[ex4_2_320.download]]
-    sha256 = "0bafb75ec244a32bede7afed774abbc59ccda459292842b9b408fada7e52f035"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_2_320.tar.gz"
-
-[ex4_320]
-git-tree-sha1 = "e6299a9719cefce81d4e0efdb0589272f00b05da"
-lazy = true
-
-    [[ex4_320.download]]
-    sha256 = "a9e16cfed863d7a9986d8f661c4a64a11d360cc9fe1d1f0f52fe8ab8b2ed68d5"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_320.tar.gz"
-
-[ex5_160]
-git-tree-sha1 = "9c5ccef4be27a837db75304adfdd591b37321be8"
-lazy = true
-
-    [[ex5_160.download]]
-    sha256 = "41d17c572a00059bfee4c462a2d961c798ac67fb2358916e1278b545895884a4"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex5_160.tar.gz"
-
-[ex5_320]
-git-tree-sha1 = "a437f97944c141887c8c9042558c0e74469f2c08"
-lazy = true
-
-    [[ex5_320.download]]
-    sha256 = "e452f1131af1eda7516e1f3865473782cec40f3c255724b71407622c445ea2a7"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex5_320.tar.gz"
-
-[ex6_160]
-git-tree-sha1 = "bf2a625cbe1b0557d48c6092ca12a646fb2936be"
-lazy = true
-
-    [[ex6_160.download]]
-    sha256 = "66a1a0333462f0dd20fc37a52426b4980f99527df3e7d2721dbed1f5e230ded1"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex6_160.tar.gz"
-
-[ex6_320]
-git-tree-sha1 = "f35f715082fa3ee703193cd962dac678263f1694"
-lazy = true
-
-    [[ex6_320.download]]
-    sha256 = "144818e2e4be21ed70442426996bd5bac961cc72a7c1bd419a675422407db322"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex6_320.tar.gz"
-
-[ex8_2_2]
-git-tree-sha1 = "f4e66b893d4e0c810c3e11340204f165cba6bcb2"
-lazy = true
-
-    [[ex8_2_2.download]]
-    sha256 = "dcabe567c2b8f28355956b36d22469d359948ca3308d8ad1d1e475f2077c7b15"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex8_2_2.tar.gz"
-
-[ex8_2_3]
-git-tree-sha1 = "40f55e00b29d0ef66732d22462edcf5785eb3ad3"
-lazy = true
-
-    [[ex8_2_3.download]]
-    sha256 = "aef1d2355011e29c29901f4967b183cdcb3033ec924f4ad16458013fb685b71f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex8_2_3.tar.gz"
-
-[gasoil_1600]
-git-tree-sha1 = "7b141b0a0489a0c5beab378b7bd0c9628aa8b305"
-lazy = true
-
-    [[gasoil_1600.download]]
-    sha256 = "f1ec25a05b72eb3ddb0cc1f7ce7b69ccab69f294ef54b8a56445d994d6276946"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/gasoil_1600.tar.gz"
-
-[gasoil_3200]
-git-tree-sha1 = "1e2646117da69f6862e017e3eff3d26fe9630a20"
-lazy = true
-
-    [[gasoil_3200.download]]
-    sha256 = "7dd0a8ee29a04faaf606ce66f1ea8c166804423cead449e07f876ba911fc13da"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/gasoil_3200.tar.gz"
-
-[henon120]
-git-tree-sha1 = "9cf1ed93dfd7034532013bbb092a2d3794c87732"
-lazy = true
-
-    [[henon120.download]]
-    sha256 = "eeb4f884515918771e4fb739d188e657d96ff550c55fbf46480f9fb115e11c51"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/henon120.tar.gz"
-
-[henon40]
-git-tree-sha1 = "7b590added624becd83d6e65f7ebf93fd2779dc5"
-lazy = true
-
-    [[henon40.download]]
-    sha256 = "cc61e72d74abecbfe919425b9cd248bbf4e49ef7081b6d6e6658fceed8f9cd5f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/henon40.tar.gz"
-
-[henon80]
-git-tree-sha1 = "289106016152c7eaa48b53987cd2b08aea7d4dbe"
-lazy = true
-
-    [[henon80.download]]
-    sha256 = "48b16ce0ce6b5b591dd9ffeb4d8153cab3032da534de378f2c592d9462b36345"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/henon80.tar.gz"
-
-[lane_emden120]
-git-tree-sha1 = "31cee0970ad70e1431d2c38f70142d289ccea77d"
-lazy = true
-
-    [[lane_emden120.download]]
-    sha256 = "7a9502b81a1a3ed157c748e7d76c528ef37c0ff2be18f321f7e440f9861dbaef"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lane_emden120.tar.gz"
-
-[lane_emden40]
-git-tree-sha1 = "90530781641b9fa42491a4310e7b770117f8baa3"
-lazy = true
-
-    [[lane_emden40.download]]
-    sha256 = "275051e414206e93571a1b5d74baabeb7b2f2702c3e531cd6a5c9db47c0729ce"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lane_emden40.tar.gz"
-
-[lane_emden80]
-git-tree-sha1 = "c5f6f02914bb8e71d35bb6d5f4f40b723a87273c"
-lazy = true
-
-    [[lane_emden80.download]]
-    sha256 = "2056fda846f1f94f3cd3a9fcfa38c528be397e95e6c870b45ce5b9b4e2bb05ea"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lane_emden80.tar.gz"
-
-[lukvle1]
-git-tree-sha1 = "56185df50e268b8289783ef79f8a6189ac0e9c6f"
-lazy = true
-
-    [[lukvle1.download]]
-    sha256 = "c7cf112e3ca3aae79ddd6e4193ab468596a7fff11274a6079559b450874a407c"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle1.tar.gz"
-
-[lukvle10]
-git-tree-sha1 = "784e4b156d5c2496858b5dad688dff3fa40e7a46"
-lazy = true
-
-    [[lukvle10.download]]
-    sha256 = "1e8606202656acfc5e6a26fdde9810ce1117b2619062ecd65e70d89a1a007598"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle10.tar.gz"
-
-[lukvle11]
-git-tree-sha1 = "bc8864d015b4807880a7109953fe0dfb1ab80032"
-lazy = true
-
-    [[lukvle11.download]]
-    sha256 = "a6e53786d1215f957b258c16abbd00a12016941a5dadffa34f02640ca8583f91"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle11.tar.gz"
-
-[lukvle12]
-git-tree-sha1 = "20c43c4d6a8cab37ab77b69f4ece6450ac5f60da"
-lazy = true
-
-    [[lukvle12.download]]
-    sha256 = "dd3edf21c2a16a2cfc2a6da3e5122bc19c3f0b2d443dc9bb5fea6d873c9a6121"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle12.tar.gz"
-
-[lukvle13]
-git-tree-sha1 = "ace36cf8fc09e9304027f9f19505ff7fbabc75f1"
-lazy = true
-
-    [[lukvle13.download]]
-    sha256 = "742caa059f06b185c3172a867e649bee05730d5015461b5a413315ba97019273"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle13.tar.gz"
-
-[lukvle14]
-git-tree-sha1 = "de0f85610aeec151add93f0ce7e1893862f5faf7"
-lazy = true
-
-    [[lukvle14.download]]
-    sha256 = "58556f99a7635bc79a7f2973bea121c0f510340bf75c733969c3cdbdb14409b1"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle14.tar.gz"
-
-[lukvle15]
-git-tree-sha1 = "8033186a5956f3f35c1dd30f3d3cbba9551a68e1"
-lazy = true
-
-    [[lukvle15.download]]
-    sha256 = "f50f6506c45a7f5d0a1ef9686dde32eb24c604ad63e5a1194e837d4275b2498d"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle15.tar.gz"
-
-[lukvle16]
-git-tree-sha1 = "3bc1c434164fb8176f75c77decd91a059f5da8bf"
-lazy = true
-
-    [[lukvle16.download]]
-    sha256 = "51699b9f6ce25ff193d8840080731a7e172d2bc1dfe43a1d80864a8cf2c7621f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle16.tar.gz"
-
-[lukvle17]
-git-tree-sha1 = "7f0655db00f9443e6bc501ee6ec6b02e2659b2b2"
-lazy = true
-
-    [[lukvle17.download]]
-    sha256 = "2a0b6295b52ca753233a679b45910833b2f177db5be5d153a3039d5b0406629f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle17.tar.gz"
-
-[lukvle18]
-git-tree-sha1 = "8513aace05930180df923607a9756ed6c6cb32ab"
-lazy = true
-
-    [[lukvle18.download]]
-    sha256 = "579c1bf3c4d2d7097d1fd54661f33e482cae9dfa9bdf4ad73af79badfdef2103"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle18.tar.gz"
-
-[lukvle2]
-git-tree-sha1 = "f7538eedacf3d72043796d4d416f0fbe79f018c6"
-lazy = true
-
-    [[lukvle2.download]]
-    sha256 = "cdda1661abffc1e5cec069587abc7c5dadc740ec938cb63012740a90766cb0e5"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle2.tar.gz"
-
-[lukvle3]
-git-tree-sha1 = "eb03f5a004dac7c3e82ec338251377107541d2cf"
-lazy = true
-
-    [[lukvle3.download]]
-    sha256 = "c2dedbb0d903710e470ebac8850b3e38c395c0bf6e03a4a44b9e194164f2d384"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle3.tar.gz"
-
-[lukvle4]
-git-tree-sha1 = "cc940585c717eee86fe1ec6fcf2c09b9114ba647"
-lazy = true
-
-    [[lukvle4.download]]
-    sha256 = "c8314b17bd0d9f8b255ceb4604d0dac4f2acbfd613316e3df3db8774297489f0"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle4.tar.gz"
-
-[lukvle5]
-git-tree-sha1 = "e6c72e336be5e2700c94203fc51b1abb2cb1618b"
-lazy = true
-
-    [[lukvle5.download]]
-    sha256 = "d583bf71dcb13105a367c48b253bae63858e34fe882d29d17ad3812be98d997f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle5.tar.gz"
-
-[lukvle6]
-git-tree-sha1 = "32ab8cbdcfced4fb6bc3729fa176ff8b69622755"
-lazy = true
-
-    [[lukvle6.download]]
-    sha256 = "3a49dc9b7056644163cce697737b1f46b4d96b94a86e0471db2f229b3a826ff3"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle6.tar.gz"
-
-[lukvle7]
-git-tree-sha1 = "a0495baef0406ff8145d80d0d6046c5cb980dd16"
-lazy = true
-
-    [[lukvle7.download]]
-    sha256 = "46cffb69c1a95d039ed4cd00cfbd09d9d177027f7071a6b060ad0a41e29170b6"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle7.tar.gz"
-
-[lukvle8]
-git-tree-sha1 = "0712d0ad7476bb2b38dd69a563f7dad3566ab24b"
-lazy = true
-
-    [[lukvle8.download]]
-    sha256 = "0fd5d6ef003a6bfaa85c376cd7e44754e6cf9a25963214e866df34556d5e8115"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle8.tar.gz"
-
-[lukvle9]
-git-tree-sha1 = "eac7fb90f7e7a5fa83dc53b24da59527c8e76b60"
-lazy = true
-
-    [[lukvle9.download]]
-    sha256 = "37655d756dc00ee28eb5e26fecaddacd4bf0d46d6326c718b316a33a97f18bb3"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle9.tar.gz"
-
-[lukvli10]
-git-tree-sha1 = "feb28d4ade3ad25d704ecf3cd0f20e164c0a8023"
-lazy = true
-
-    [[lukvli10.download]]
-    sha256 = "b5b5a2aeeef8b2aff44fe11f36b8699291d3caa7f04f00acaec81da1f12ba22b"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli10.tar.gz"
-
-[lukvli11]
-git-tree-sha1 = "2442c53948425a19e394a86a06ce744e03524827"
-lazy = true
-
-    [[lukvli11.download]]
-    sha256 = "a8869effc3a619665156eac62bf7f85c4130f2168ab14ed652e19f0be56bb623"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli11.tar.gz"
-
-[lukvli12]
-git-tree-sha1 = "1a35c5390c2fb6400564ad06f894fa42dc737872"
-lazy = true
-
-    [[lukvli12.download]]
-    sha256 = "08385f85b0974b6518d9fb9c1906c1441b475fe95c051ecd878af851643950ea"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli12.tar.gz"
-
-[lukvli13]
-git-tree-sha1 = "f9ae56980929196f4945c2b1265721fb41235c73"
-lazy = true
-
-    [[lukvli13.download]]
-    sha256 = "da056d7ba7dec7ea5aaf36d9737f63f5b36f0a59664cbbecb488307fe1ecdb20"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli13.tar.gz"
-
-[lukvli14]
-git-tree-sha1 = "3a2f1e449bea647a9e24031c2105be69ddffe956"
-lazy = true
-
-    [[lukvli14.download]]
-    sha256 = "570c0b291cd9442f11b801ced711bcef3152b138229166b911f5601ed46da380"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli14.tar.gz"
-
-[lukvli15]
-git-tree-sha1 = "6600870d0c0634f3a248aaf51f0a928e2ef7edd0"
-lazy = true
-
-    [[lukvli15.download]]
-    sha256 = "07dfafc16721181a3facad1e9d0ea5e4a9ec7c2ce9a1d5325c50bd4ba6cd7862"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli15.tar.gz"
-
-[lukvli16]
-git-tree-sha1 = "595a1a3cc7129fba798ad5c83bf7e8b036359857"
-lazy = true
-
-    [[lukvli16.download]]
-    sha256 = "c083103d406cf5c670d56b2dca83c907c2bf9b5826c4ef4cee044784a4ee0df9"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli16.tar.gz"
-
-[lukvli17]
-git-tree-sha1 = "3ab508e7f330060e65bb45b3ba0b74ca6c602300"
-lazy = true
-
-    [[lukvli17.download]]
-    sha256 = "078a18c6276ab9c0d0825c53a768a030c492842d874a86ce764d7fbff81cc0ab"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli17.tar.gz"
-
-[lukvli18]
-git-tree-sha1 = "f98cf86c836d241e38aa5b44f0bca3fa45eb9f45"
-lazy = true
-
-    [[lukvli18.download]]
-    sha256 = "a5b5569d32df2fa3f133bb39baee49d227b9e65589082205c87e74edaf478d99"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli18.tar.gz"
-
-[lukvli2]
-git-tree-sha1 = "1e1c87183eda64f24c40f7040fa73b3c320ac7ce"
-lazy = true
-
-    [[lukvli2.download]]
-    sha256 = "7adc4c1bf8291d25e27588c07bda607ea42789598a1cb8bc7c79559807747335"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli2.tar.gz"
-
-[lukvli3]
-git-tree-sha1 = "76d6054b98bdf515d46624bf41e65486989cfb97"
-lazy = true
-
-    [[lukvli3.download]]
-    sha256 = "3f9920da9e0c583e089bef66d8a025c81382639eb47693621b099b76150df575"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli3.tar.gz"
-
-[lukvli4]
-git-tree-sha1 = "5b2c47fa9fcc3cf0605d1f76b2050a3a3ee6e1c4"
-lazy = true
-
-    [[lukvli4.download]]
-    sha256 = "e842c40f7b4cc00fbb6232a3d72fd712ac0045723f8807f5bac694e101396649"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli4.tar.gz"
-
-[lukvli5]
-git-tree-sha1 = "7e2407ba089a0b572590196372d2b977050c9981"
-lazy = true
-
-    [[lukvli5.download]]
-    sha256 = "5355bd5fc9e3c1e9ec4c6b75afae39d3c907d895c1f6f361a8484282b6f9ff37"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli5.tar.gz"
-
-[lukvli6]
-git-tree-sha1 = "c94fa244a3bca130ddb08eec42746b699718c7a8"
-lazy = true
-
-    [[lukvli6.download]]
-    sha256 = "71bf0cd3f14266ef8892a8f01c405f6ed80c207543140cb91d67efb4d9ad368a"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli6.tar.gz"
-
-[lukvli7]
-git-tree-sha1 = "00de7d6ebe44538aa2dac049cba7fe2532379db5"
-lazy = true
-
-    [[lukvli7.download]]
-    sha256 = "23feb8d2bec887bf7fce515174fac45d3d7620394e5a0070e58adc2ff076071b"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli7.tar.gz"
-
-[lukvli8]
-git-tree-sha1 = "71805e0d0cf7192a4cf67e80ad88fe23602a166f"
-lazy = true
-
-    [[lukvli8.download]]
-    sha256 = "5c4dbd043966b4189fe06d48ab8f21f7c803ac481b1a8dc9d4d36dcc9ca1d5d6"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli8.tar.gz"
-
-[lukvli9]
-git-tree-sha1 = "4ecb961ac5b8f16edf2abdf24197484bd33dd3df"
-lazy = true
-
-    [[lukvli9.download]]
-    sha256 = "66a6b11de6acb33a83ea90d8908177bab8d58b9c52048fd0242b93832a3a6b57"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli9.tar.gz"
-
-[marine_1600]
-git-tree-sha1 = "7f68cac31e9f1319659a370bfea24217c37e3826"
-lazy = true
-
-    [[marine_1600.download]]
-    sha256 = "4f6384513fe6313f6b2a4a1a67df6b48d38bbe421ddd7aafb16658df7de52786"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/marine_1600.tar.gz"
-
-[marine_800]
-git-tree-sha1 = "8f9373c2480b404461ec1a11672287255568c7c6"
-lazy = true
-
-    [[marine_800.download]]
-    sha256 = "e40aea6e6182dc3741cd70441bafff6ba71d947222fcbfbd1147f7cebd691e33"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/marine_800.tar.gz"
-
-[nql180]
-git-tree-sha1 = "8fd1c92abd34672692adaadb5a493bb4d8bf2f92"
-lazy = true
-
-    [[nql180.download]]
-    sha256 = "2a0020bf375c6aa7a0683286eae01d981251b947199def25c57c52e0fd90043a"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/nql180.tar.gz"
-
-[optmass]
-git-tree-sha1 = "232205d9abc73d7932896f23610ae060c44e7bc1"
-lazy = true
-
-    [[optmass.download]]
-    sha256 = "e55764b0ad54a839a2cb76bcf0adb0a77ed02d19e9bbfcb9926d08328e74bd2d"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/optmass.tar.gz"
-
-[pinene_1600]
-git-tree-sha1 = "c5cbecd366149ce622a8c63d64842891a507b716"
-lazy = true
-
-    [[pinene_1600.download]]
-    sha256 = "b753d2d45515e3891f5d3cfa014c111c9318138d34e085f63eb945dc43fa3509"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/pinene_1600.tar.gz"
-
-[pinene_3200]
-git-tree-sha1 = "3ca96addf0a46e15f432586185fbadb1f0ea3915"
-lazy = true
-
-    [[pinene_3200.download]]
-    sha256 = "272d36d9ec72b1b5dd7cfb7d0527cd9610cbd63302ae498b0e13b0f2e2deef3f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/pinene_3200.tar.gz"
-
-[qcqp1000-1c]
-git-tree-sha1 = "a3e38772a8e093cf528b7685f64ecc192e145b96"
-lazy = true
-
-    [[qcqp1000-1c.download]]
-    sha256 = "1e60bc6a6c15d70642229b5f7c37f9db0ee1cc2bcd2c22c497a4c61161b36e49"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-1c.tar.gz"
-
-[qcqp1000-1nc]
-git-tree-sha1 = "286325d644bf3016d4ae471aaa1b8c786203e74f"
-lazy = true
-
-    [[qcqp1000-1nc.download]]
-    sha256 = "6546a25afffacaa253a7c4c4edd508f587998bc0708ed3f145dbb5d614f9fcd0"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-1nc.tar.gz"
-
-[qcqp1000-2c]
-git-tree-sha1 = "7a57be56ec3952d8abd8dd0fa149744b3cc52112"
-lazy = true
-
-    [[qcqp1000-2c.download]]
-    sha256 = "17bdd37be69b1a595ffb50b093d89b1a233e36b758fa1cfe640491c26210d34b"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-2c.tar.gz"
-
-[qcqp1000-2nc]
-git-tree-sha1 = "cdbc5682fd620f669aa48eb5f5597e656bc6699c"
-lazy = true
-
-    [[qcqp1000-2nc.download]]
-    sha256 = "8d99a1c3c746a8c2f96eaa0eeefb8bfd7262996ad5038de1869c968c711e1bd0"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-2nc.tar.gz"
-
-[qcqp1500-1c]
-git-tree-sha1 = "fef5b95636428a5281f1d405cf15b05162ef8900"
-lazy = true
-
-    [[qcqp1500-1c.download]]
-    sha256 = "5a3185198fffcd2aaba9ac85d7b61a090f3b41e75e395b63f43d949dc25d7996"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1500-1c.tar.gz"
-
-[qcqp1500-1nc]
-git-tree-sha1 = "a7920b6d6ed548f84e81b337de129b22e7738c13"
-lazy = true
-
-    [[qcqp1500-1nc.download]]
-    sha256 = "3bb313904af2177bada7eb71aa43ce170305352ba8308eafba5cc90bdaee41a5"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1500-1nc.tar.gz"
-
-[qcqp500-1c]
-git-tree-sha1 = "c6d86dbfc2c49efba3a8398c3f3b0a56834ad009"
-lazy = true
-
-    [[qcqp500-1c.download]]
-    sha256 = "349359432e73b371a73fcba91e8e5f6277f00d7097ac16c47e7ac41a04a3ef48"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-1c.tar.gz"
-
-[qcqp500-1nc]
-git-tree-sha1 = "64b2d1b9a9a3e9d3fa71b8e5729d66ba36cb539c"
-lazy = true
-
-    [[qcqp500-1nc.download]]
-    sha256 = "5a1679ce726d94fa51cc83b6f02f82f061902647bf75ca9021f07373dab4d945"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-1nc.tar.gz"
-
-[qcqp500-2c]
-git-tree-sha1 = "33d1c2c10d2df490b45cb2a1fc87429e7cd4bc27"
-lazy = true
-
-    [[qcqp500-2c.download]]
-    sha256 = "70a85d00423a0626cebd40b41c84228fd16db4d30a5215b41478edf3d3e9d80c"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-2c.tar.gz"
-
-[qcqp500-2nc]
-git-tree-sha1 = "ab67beb65b15a1b93cc16db6d6eb5a16c34ad49c"
-lazy = true
-
-    [[qcqp500-2nc.download]]
-    sha256 = "e61d124193b9f080b2277e159194de317fd0787a4a951f3f24dd53cf9a8fa7ee"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-2nc.tar.gz"
-
-[qcqp500-3c]
-git-tree-sha1 = "30a0552b66d047596a375d51289c1657c44dd365"
-lazy = true
-
-    [[qcqp500-3c.download]]
-    sha256 = "1c0d82daad4c406d2279693c0c8b6fe0ae2ebe49bb3b4732e3f98dd937b9277a"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-3c.tar.gz"
-
-[qcqp500-3nc]
-git-tree-sha1 = "da60d81a3c8d745882b17090bba5ed29cb99946e"
-lazy = true
-
-    [[qcqp500-3nc.download]]
-    sha256 = "49482b86c3799e097303c55129e04dcb8262e50385cf31bf20c7f6e60904a7c0"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-3nc.tar.gz"
-
-[qcqp750-1c]
-git-tree-sha1 = "8e492d1739f74a9da19bc17c5a81a5f64873bf26"
-lazy = true
-
-    [[qcqp750-1c.download]]
-    sha256 = "d1fc93075a25c04616216bd457ec1006ef0ba1df7662b2d2cf27b7846ed1aede"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-1c.tar.gz"
-
-[qcqp750-1nc]
-git-tree-sha1 = "5462cb1ad0eb23a879ba4238a644dd1f30ceac43"
-lazy = true
-
-    [[qcqp750-1nc.download]]
-    sha256 = "d6413b42f0986d85a319548b8ce635b98827fb8011ae22ad3dee060804d37de9"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-1nc.tar.gz"
-
-[qcqp750-2c]
-git-tree-sha1 = "95ae017d6749e782eb7ea9dce25e5d1fef3337b0"
-lazy = true
-
-    [[qcqp750-2c.download]]
-    sha256 = "189698caa9bbcc3f246ad9c5442550f42d14b02d53dc51e997765c11bb7ab556"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-2c.tar.gz"
-
-[qcqp750-2nc]
-git-tree-sha1 = "aa5f88885c6de4838a1aa2339219eca4f3749fa7"
-lazy = true
-
-    [[qcqp750-2nc.download]]
-    sha256 = "7ba3fbdd2ba5aab4e10180edb92f2b08b9e2114c7ebd3d154ebdb87ac5ee0fd0"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-2nc.tar.gz"
-
-[qssp180]
-git-tree-sha1 = "3ad333187bd913f8f89a55461905d6e0eff84703"
-lazy = true
-
-    [[qssp180.download]]
-    sha256 = "c680cb39ef518da6904a528cd54983851de266b546a306b64c28c24b0a5e6835"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qssp180.tar.gz"
-
-[qssp60]
-git-tree-sha1 = "4ea4ac2905fe24cde208086d6343acde26c713eb"
-lazy = true
-
-    [[qssp60.download]]
-    sha256 = "4737247689c745ee5fb0a332866d774402cf0019400d9786628bf7d7801e1876"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qssp60.tar.gz"
-
-[robot_1600]
-git-tree-sha1 = "48aa0f82b2377ef0bf77d2c966a2ef719eb83c12"
-lazy = true
-
-    [[robot_1600.download]]
-    sha256 = "7a6469760fed4efe3fd68a7627811c2556975ce16a42656c896794eb13e7951b"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_1600.tar.gz"
-
-[robot_800]
-git-tree-sha1 = "aa0126e930a43c219b17777511f4c01c3e2f5a73"
-lazy = true
-
-    [[robot_800.download]]
-    sha256 = "8ef2aeca41770888921fb37d37c5d56b8c8775fbd00fd03364723452d7e9a9ce"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_800.tar.gz"
-
-[robot_a]
-git-tree-sha1 = "c6ff43cb5b4d73cbc13262661dcdbea8d8926794"
-lazy = true
-
-    [[robot_a.download]]
-    sha256 = "e0d4d90ef20ac7ec8b3ea6b278f56677515bcef9928cb851e7ce1428ac299815"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_a.tar.gz"
-
-[robot_b]
-git-tree-sha1 = "d1334f4d79893ef7709966dae39f61e480aaad39"
-lazy = true
-
-    [[robot_b.download]]
-    sha256 = "7b3a34a6e9d5e8397d4fa610829f1986a2fee5ac9382108f6869df060efb1801"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_b.tar.gz"
-
-[robot_c]
-git-tree-sha1 = "6104be8fa4e7461a3aeea5f1e07cfef1df21fcd9"
-lazy = true
-
-    [[robot_c.download]]
-    sha256 = "ed7d1a32b9e19c0514831e808d06b77559c65ba4781084758b5447c4457fa17f"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_c.tar.gz"
-
-[rocket_12800]
-git-tree-sha1 = "cd359fa26e476df5b4d120cddb8a188b5c2355e5"
-lazy = true
-
-    [[rocket_12800.download]]
-    sha256 = "939f5605ef7f5f801466f7e661afaa396e6c2ab766990af26f6203b3796ff511"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/rocket_12800.tar.gz"
-
-[rocket_6400]
-git-tree-sha1 = "ad5630cae5b8b4041f0f7dd1df86931585efbcba"
-lazy = true
-
-    [[rocket_6400.download]]
-    sha256 = "2bbf99da7b6760f0b206b6fe9bca9f60b63c4883b1744d7525600c5726e8e71d"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/rocket_6400.tar.gz"
-
-[steering_12800]
-git-tree-sha1 = "e80449cf7cbe3b57d06991d985c3fe6c81a5e4b5"
-lazy = true
-
-    [[steering_12800.download]]
-    sha256 = "10f839815540a5d5aa12e28eebb928f2f669eadbcee8bbc5063aa4563cdba50d"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/steering_12800.tar.gz"
-
-[steering_6400]
-git-tree-sha1 = "907979910555ebf361bf7f0c2759b88e90d1bf76"
-lazy = true
-
-    [[steering_6400.download]]
-    sha256 = "7d91d35d451e8f635f02813df8ddf8596ad3d238e7610ec69d88fd6ce61917d8"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/steering_6400.tar.gz"
-
-[svanberg]
-git-tree-sha1 = "37322f1ac42290a569249765cfa9a61d59616c0c"
-lazy = true
-
-    [[svanberg.download]]
-    sha256 = "83f0d63b93ee74033007ed91101e282ffff13dcd51858305889186a76b0960f3"
-    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/svanberg.tar.gz"
 
 [WM_CFy]
 git-tree-sha1 = "13c64245d830208762acd4573a696715548ca99e"
@@ -973,6 +13,966 @@ lazy = true
     [[WM_CFy.download]]
     sha256 = "032dc0f590698b1b7e102a9b850a69907ade86573481822ac46653870671967d"
     url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/WM_CFy.tar.gz"
+
+[Weyl_m0]
+git-tree-sha1 = "99d8ce64baee15826d4020c8ae107798f26cce18"
+lazy = true
+
+    [[Weyl_m0.download]]
+    sha256 = "d28dfee81d7a995d72ee1a510f3f0eefd2073efcc8a362336189c0741f2fb31d"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/Weyl_m0.tar.gz"
+
+[arki0003]
+git-tree-sha1 = "2455cd5f4d8a4241d2c3109a8a0aee915aee81e9"
+lazy = true
+
+    [[arki0003.download]]
+    sha256 = "10f621751f4f825c935079689c0fdfcb6fb441c8b9905c6273c0e26cdb385533"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/arki0003.tar.gz"
+
+[arki0009]
+git-tree-sha1 = "e4083ed02ba395ca2c0f389f3ee97a511724d2b5"
+lazy = true
+
+    [[arki0009.download]]
+    sha256 = "b108f6f7f344dd9fbb170589bb1a003316f214611a7fd359df2210c6ccbe44f4"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/arki0009.tar.gz"
+
+[bearing_200]
+git-tree-sha1 = "be8bda5a46bf2e0feb11556c4a0ed04141514819"
+lazy = true
+
+    [[bearing_200.download]]
+    sha256 = "5231f236d506fcfc1c8264e08b2101349a2da31970911ea42a20fe14f0525414"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/bearing_200.tar.gz"
+
+[bearing_400]
+git-tree-sha1 = "837301cdd430a8f51896034fac16c1e4b4e5f19e"
+lazy = true
+
+    [[bearing_400.download]]
+    sha256 = "0e31ff3be4d2254efd2c8eecdbcac038a55a012edad5f157cc92d555b4794198"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/bearing_400.tar.gz"
+
+[camshape_1600]
+git-tree-sha1 = "594026a4de2352af657a70245de107f835488cf3"
+lazy = true
+
+    [[camshape_1600.download]]
+    sha256 = "9e3e5e482a6c02d76a3f169f900626acbe895a0993fee4e4d42d5fd734f56779"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/camshape_1600.tar.gz"
+
+[camshape_6400]
+git-tree-sha1 = "b6d67f35d0296db319e15e9c43570df120e9fe4d"
+lazy = true
+
+    [[camshape_6400.download]]
+    sha256 = "28b8d9b08151c50682be1a46e26491871ee30de2226309cde750979a2ab3675a"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/camshape_6400.tar.gz"
+
+[clnlbeam]
+git-tree-sha1 = "e095a72a2ec24b2aa71616d1ab376bca916db817"
+lazy = true
+
+    [[clnlbeam.download]]
+    sha256 = "134aab095042737e4176d8e734c2bd82c0b73fc0cf80c1f530df846a5f919aba"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/clnlbeam.tar.gz"
+
+[cont5_1]
+git-tree-sha1 = "5f427c2635ae86719f3917328d97b25f3871d867"
+lazy = true
+
+    [[cont5_1.download]]
+    sha256 = "bb536fed19dfeafd21d60c17fca159503edc3997808930c1d7ba3007efe61b4f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_1.tar.gz"
+
+[cont5_1_l]
+git-tree-sha1 = "3bfa245376e261b8f1b92aa6909ac7dd139b217b"
+lazy = true
+
+    [[cont5_1_l.download]]
+    sha256 = "11c07c6d2a9739dad35972f8c82013355a1c756e3089c4548804672fe3329d44"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_1_l.tar.gz"
+
+[cont5_2_1]
+git-tree-sha1 = "d51b317ed61f9081de805a432186ecf95163208c"
+lazy = true
+
+    [[cont5_2_1.download]]
+    sha256 = "331ad94522a11604c19709bea65168897b5dd4523cb11430d3e978089b012c82"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_1.tar.gz"
+
+[cont5_2_1_l]
+git-tree-sha1 = "fd9ae3557d1652c7d3012d49e51b32e2abf0ce19"
+lazy = true
+
+    [[cont5_2_1_l.download]]
+    sha256 = "0ba4f810eee8f76e9159b9221e2c18e209d8567d9efb5ab4406cf8655d6375a3"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_1_l.tar.gz"
+
+[cont5_2_2]
+git-tree-sha1 = "64c9f14de477e06fb857ae79b86faebaa23a8ee3"
+lazy = true
+
+    [[cont5_2_2.download]]
+    sha256 = "935e7366b8607a1732037129271ef17878f8a97536462f7b3f90cf259011f84c"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_2.tar.gz"
+
+[cont5_2_2_l]
+git-tree-sha1 = "9dabce621f25f7eb5f4ebedb6898a4d6fe50a9ba"
+lazy = true
+
+    [[cont5_2_2_l.download]]
+    sha256 = "36e4eaea163a2dc3409e58a5d2b143cef0ac7d7aee64cfed955f88d6124c36eb"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_2_l.tar.gz"
+
+[cont5_2_3]
+git-tree-sha1 = "a824a034286abc2a4dfc3e217c81b859b2428834"
+lazy = true
+
+    [[cont5_2_3.download]]
+    sha256 = "3f89d58e81b4b4402cd650affac06199aa257d86311c6b1ff00aa4c4f4cfffec"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_3.tar.gz"
+
+[cont5_2_3_l]
+git-tree-sha1 = "7368eb8638a4ed9fb91608ce96f21a321819a03d"
+lazy = true
+
+    [[cont5_2_3_l.download]]
+    sha256 = "4b92d4ac34ac136978c867bfd78610d36b336eaf8ac8d3fc314718b5e61bb7a8"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_3_l.tar.gz"
+
+[cont5_2_4]
+git-tree-sha1 = "4042b61c0c938d50748cfb2f09f978890b671da1"
+lazy = true
+
+    [[cont5_2_4.download]]
+    sha256 = "8eb8707269af6408e749b27b92b32a6c7a766a294fef0b839e04a921ae8b6450"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_4.tar.gz"
+
+[cont5_2_4_l]
+git-tree-sha1 = "44640b0ea016935de610a5ee7dc2be25a3447b65"
+lazy = true
+
+    [[cont5_2_4_l.download]]
+    sha256 = "9585d76012787eeea3cd5d8764c742581145d5ffb6fe13d6316f8515caf943ad"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont5_2_4_l.tar.gz"
+
+[cont_p]
+git-tree-sha1 = "cd219c19c791eb8d9ac1f25096e7f8cb4deeafda"
+lazy = true
+
+    [[cont_p.download]]
+    sha256 = "8831c74f72177ed645d83565326ffabb506a653710e60a7db516a5fcd8e4f6db"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/cont_p.tar.gz"
+
+[corkscrw]
+git-tree-sha1 = "b964efc0eed880c6cc06673142f5f9d813512975"
+lazy = true
+
+    [[corkscrw.download]]
+    sha256 = "69d970127854e314e745774ecc603af19d4ba037d3e03c0c03acdd7922f94530"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/corkscrw.tar.gz"
+
+[dirichlet120]
+git-tree-sha1 = "71ce6644ab9faf3973732f3c27da78d6b8802a3a"
+lazy = true
+
+    [[dirichlet120.download]]
+    sha256 = "50ad10e85b0b63643cc4b157a1b8cc36c4d0817a7e6391966bee765487914887"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dirichlet120.tar.gz"
+
+[dirichlet40]
+git-tree-sha1 = "1ee3dd1791e992b921cd53d8c1256726bb680242"
+lazy = true
+
+    [[dirichlet40.download]]
+    sha256 = "6cfa40ca1bde7964358f4dbc536317a2098e62eeb815c00374caa25f95595587"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dirichlet40.tar.gz"
+
+[dirichlet80]
+git-tree-sha1 = "66a368401bdd9a08525edd39166034f17e8454fc"
+lazy = true
+
+    [[dirichlet80.download]]
+    sha256 = "5f8ee9f177898fdb12fce2f4d63913632b312b7eded90fc9a4e73b618b65db1f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dirichlet80.tar.gz"
+
+[dtoc1nd]
+git-tree-sha1 = "edc0ef22acbcfccdbbf5d512cf43ecb31cd1a11a"
+lazy = true
+
+    [[dtoc1nd.download]]
+    sha256 = "72cc840c3458019fe27f213cca0e252e17a8ee6f9bb547b74ae508b3a7a2e142"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dtoc1nd.tar.gz"
+
+[dtoc2]
+git-tree-sha1 = "ad3bc4effe83178261d95d96fe93805069a2cd44"
+lazy = true
+
+    [[dtoc2.download]]
+    sha256 = "1670fdf1366a447c605d49874e4cf4ddcf5b13a673cd48085382bee250b7e9c9"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/dtoc2.tar.gz"
+
+[elec_200]
+git-tree-sha1 = "943cd7ecd3f01741d312e62189e9336824af17b5"
+lazy = true
+
+    [[elec_200.download]]
+    sha256 = "fd002f49e6955a03f78c9c828599889e8a0af9f358ee4e34b43d60bbe8a9b7f6"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/elec_200.tar.gz"
+
+[elec_400]
+git-tree-sha1 = "82549c241a8734f94e72258661122d6e9494fd47"
+lazy = true
+
+    [[elec_400.download]]
+    sha256 = "7855ad8a976b6fb99283adffc2f9327d783c12b4c920763b1f24bde6f698bc52"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/elec_400.tar.gz"
+
+[ex1_160]
+git-tree-sha1 = "ca0186736144b9cde7cff1ac39ebcceba8a89569"
+lazy = true
+
+    [[ex1_160.download]]
+    sha256 = "79d84a43659dd8f5a0b60070700b7e05fc4aac18f72c21125007cde597e196b9"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex1_160.tar.gz"
+
+[ex1_320]
+git-tree-sha1 = "6bd0c3b7fd4bc761f31d5bc67405b80b5499ce22"
+lazy = true
+
+    [[ex1_320.download]]
+    sha256 = "b226ff7dc4c9a08511761d780144419d99fdcc41a10096cbd195a9f668e636c8"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex1_320.tar.gz"
+
+[ex2_160]
+git-tree-sha1 = "f9ea9f3cc977d3965b8ae33284a5e39adbef5291"
+lazy = true
+
+    [[ex2_160.download]]
+    sha256 = "80dcc12e5a8eb55ddadb6f430f4a6b4bc8c7fc3fd2d9c9655202e8fc0eb75b3a"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex2_160.tar.gz"
+
+[ex2_320]
+git-tree-sha1 = "7e8459f0c4eb2a3ea13056ace62745c67083a5fa"
+lazy = true
+
+    [[ex2_320.download]]
+    sha256 = "16c8739495c2b9ddcda9b86cdd4da5388d193c3d4df66de95ed7c00997eb1982"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex2_320.tar.gz"
+
+[ex3_160]
+git-tree-sha1 = "c4c4f612b43bdcc72a38a90d78fc26804cb7e546"
+lazy = true
+
+    [[ex3_160.download]]
+    sha256 = "6cc1c835cfd592a1017be2af65dc13a86283e09a5f7148636569f6830ccecfe8"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex3_160.tar.gz"
+
+[ex3_320]
+git-tree-sha1 = "f1a8b50972427960063c15cdfdad824173067f31"
+lazy = true
+
+    [[ex3_320.download]]
+    sha256 = "de60ebb3d496c2dee369c67c55ef185b4ccbbe426ed3d75fb7be55375f3b78df"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex3_320.tar.gz"
+
+[ex4_160]
+git-tree-sha1 = "27f36aad811735b4084028e1d46f3fd39e0d5bab"
+lazy = true
+
+    [[ex4_160.download]]
+    sha256 = "6787ee771fa64fa6962f7224643ea9d19a243278ff592cfafa839e3439140b83"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_160.tar.gz"
+
+[ex4_2_160]
+git-tree-sha1 = "531b3a891a74f025c53e99fc8aed5edc8cf715ff"
+lazy = true
+
+    [[ex4_2_160.download]]
+    sha256 = "eb992888849afe83aa802165b80e8e18de9c66cfeaa39bf7cccc3bcebd551065"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_2_160.tar.gz"
+
+[ex4_2_320]
+git-tree-sha1 = "c22cc14ae71ccd176def76f52165b2b6c9903dcc"
+lazy = true
+
+    [[ex4_2_320.download]]
+    sha256 = "9926da1732cfd1ae4d4934a359ea6dc8cc9618e3fdcb2e28e176e55c2e5dd9ea"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_2_320.tar.gz"
+
+[ex4_320]
+git-tree-sha1 = "e1fcece8bc6cbefc7770b93b96a8b303eb15d3e3"
+lazy = true
+
+    [[ex4_320.download]]
+    sha256 = "2e13490a3f2d355e9975a12f49f03cbf3b5fd6fd6cd43aea9c1b749045e48ed9"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex4_320.tar.gz"
+
+[ex5_160]
+git-tree-sha1 = "049cd8fbe7e965e704fa9404713a7db036bce88d"
+lazy = true
+
+    [[ex5_160.download]]
+    sha256 = "6aab16525bece2e583834f68c5eab0012474003b9ae773427934de2931c852e7"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex5_160.tar.gz"
+
+[ex5_320]
+git-tree-sha1 = "2bc2159320780b6d0daf558bdcac95f79fd1508e"
+lazy = true
+
+    [[ex5_320.download]]
+    sha256 = "74dd32127751f81aea7cacc9047513f02394ef74cb7bff7266248f8634d04270"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex5_320.tar.gz"
+
+[ex6_160]
+git-tree-sha1 = "c18a837a76d9aeec11e56deb03799319930d7bde"
+lazy = true
+
+    [[ex6_160.download]]
+    sha256 = "66b363c251f56fdfe468c387c1eabd3c868a10a91cdae21f4d1670a64d9c1743"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex6_160.tar.gz"
+
+[ex6_320]
+git-tree-sha1 = "3279cc0151c280cbf0b22060666985782e1b6daa"
+lazy = true
+
+    [[ex6_320.download]]
+    sha256 = "9854e9aa2a7f425f5f494ba67bc23c83732cbcbfc496a89b1a607a3574ef00bc"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex6_320.tar.gz"
+
+[ex8_2_2]
+git-tree-sha1 = "ed9128e854d48266e81785081ff2071102766c12"
+lazy = true
+
+    [[ex8_2_2.download]]
+    sha256 = "b248b6df3be3dbf1d0ff7b638518ccb5dd299f17a2766ee51a666a709a1e4d72"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex8_2_2.tar.gz"
+
+[ex8_2_3]
+git-tree-sha1 = "ab19f61149f381a094c35cf0d3d25f24734122f1"
+lazy = true
+
+    [[ex8_2_3.download]]
+    sha256 = "b8aab8870fbc154c756b5486973378d9df4d263546992567525a7a01d21eca4f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/ex8_2_3.tar.gz"
+
+[gasoil_1600]
+git-tree-sha1 = "7d5a52f6944d1fae127e46ceb616bc5d5dd5e894"
+lazy = true
+
+    [[gasoil_1600.download]]
+    sha256 = "0daa055e218c208d9a1c45c947712a253278e80321fff7b6cce5f6e334cf43a1"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/gasoil_1600.tar.gz"
+
+[gasoil_3200]
+git-tree-sha1 = "58af507121304ef88d1577b41175ac388461fcba"
+lazy = true
+
+    [[gasoil_3200.download]]
+    sha256 = "6184b84f05e7d4cf4ccb3c393e5ce1aba295ef5802ed3bdb0a10714ac2c6574c"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/gasoil_3200.tar.gz"
+
+[henon120]
+git-tree-sha1 = "84f18c5fd3c3c0cc89db8270a3207318e922a38f"
+lazy = true
+
+    [[henon120.download]]
+    sha256 = "6b3cdf1910765a9dd52bd2f244e1f6e564ea03af189a773a69a271a39795f45e"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/henon120.tar.gz"
+
+[henon40]
+git-tree-sha1 = "7454df6251a9876f70e33686953ba5cd63c2f83e"
+lazy = true
+
+    [[henon40.download]]
+    sha256 = "198b1d5e166cbe04e37e8909bc792d8df76c07fb793e8001ef170d3a4c407630"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/henon40.tar.gz"
+
+[henon80]
+git-tree-sha1 = "dc875fd469d74dc1caaecc043fdb856ae0de695f"
+lazy = true
+
+    [[henon80.download]]
+    sha256 = "7a59771d9a2c43ef81cc1edfab613d2e4cdc81290d221a61cbf3c01386797b27"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/henon80.tar.gz"
+
+[lane_emden120]
+git-tree-sha1 = "937a248ffaa87297f3e2022a14af9c0da02a61ac"
+lazy = true
+
+    [[lane_emden120.download]]
+    sha256 = "b22182c01de3664e5be4158539fea0df16d5c662219ded4484d264461f598349"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lane_emden120.tar.gz"
+
+[lane_emden40]
+git-tree-sha1 = "f372729b180e0e90dd7e70bf4b0362fccee20749"
+lazy = true
+
+    [[lane_emden40.download]]
+    sha256 = "275f47f3130a68d46a8c2ac4f941530e754c086a59835c131b406986140ed390"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lane_emden40.tar.gz"
+
+[lane_emden80]
+git-tree-sha1 = "815485eaf1613f30093e5241f8c1af2ec2087b64"
+lazy = true
+
+    [[lane_emden80.download]]
+    sha256 = "67e90a12491bc5c1f2ddec03876c4ed78436dd8521febbe3c6da843a45ef54e6"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lane_emden80.tar.gz"
+
+[lukvle1]
+git-tree-sha1 = "60b1d08caa0cfc83262c72c175a6444208a26a1d"
+lazy = true
+
+    [[lukvle1.download]]
+    sha256 = "99989ed6603e155ae539db70e4223b1f5d2885ff31a71c449b371bb821e2cb30"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle1.tar.gz"
+
+[lukvle10]
+git-tree-sha1 = "c92446ce07a07ede3bf2a21199c239d9634e04f6"
+lazy = true
+
+    [[lukvle10.download]]
+    sha256 = "a47b4cce8f03b4ec8ca1a8a069438a2c27f6619f24a9ef226dccf47e02399799"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle10.tar.gz"
+
+[lukvle11]
+git-tree-sha1 = "eb5d4ef0494ce8d36d91deb01e7cc9c25008c9bd"
+lazy = true
+
+    [[lukvle11.download]]
+    sha256 = "853547e3548dbb10f51155b8d2dafc391de6f96bbb603df5d23d478960dc9791"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle11.tar.gz"
+
+[lukvle12]
+git-tree-sha1 = "48c0768483c419e6fb1f14cf2c3987721ec80343"
+lazy = true
+
+    [[lukvle12.download]]
+    sha256 = "3e726b1901034066f04b36fb00faece6d3499d36d3847cc3f824b18e060a5444"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle12.tar.gz"
+
+[lukvle13]
+git-tree-sha1 = "419fcacee4383561ca09c07a06fc9f208c02c4a7"
+lazy = true
+
+    [[lukvle13.download]]
+    sha256 = "115fb4f3e4f01cdcc43342562f42a5b0338702184b536f675b49f96b5d551bd7"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle13.tar.gz"
+
+[lukvle14]
+git-tree-sha1 = "e632ebecb0282ef0e8adc318905ab316a1a783cb"
+lazy = true
+
+    [[lukvle14.download]]
+    sha256 = "e7ca5ae91aad9b9729c7afdde215dc585f122467395ced2af86d641d91f596f4"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle14.tar.gz"
+
+[lukvle15]
+git-tree-sha1 = "ca51e77deb152a591cc125ca6eebd54ba9131851"
+lazy = true
+
+    [[lukvle15.download]]
+    sha256 = "9ab5a7b077494b4c881aa73a800b4c61a19c14eb357f0ddcd8294ac6412aba60"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle15.tar.gz"
+
+[lukvle16]
+git-tree-sha1 = "4922bb9a933f71cb7ccdb7fd1f66651705be118d"
+lazy = true
+
+    [[lukvle16.download]]
+    sha256 = "8ba44ec5c645bb2571ff83aba4bb185224ed569459193652da62cc79b0179f2e"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle16.tar.gz"
+
+[lukvle17]
+git-tree-sha1 = "1de527a3f1ed330588dd67f84109ed1bf25bbb5c"
+lazy = true
+
+    [[lukvle17.download]]
+    sha256 = "08b23c6d88f1ac423fcf0ab87e0d7dd6d60ace176f11797880c07c43bdc60e41"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle17.tar.gz"
+
+[lukvle18]
+git-tree-sha1 = "c1d9daf7c2b3bff263738e9a80772d4ee332f3fb"
+lazy = true
+
+    [[lukvle18.download]]
+    sha256 = "97c1a955927b82a2048530d070f847211a52499cf6cda133df0c023e3bdd60eb"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle18.tar.gz"
+
+[lukvle2]
+git-tree-sha1 = "ff02cf5ee4b064ac3bd18d8e0c96c7a45a60ba2c"
+lazy = true
+
+    [[lukvle2.download]]
+    sha256 = "d67413a764f6b14bad71a4d5729bd1544f12579f19d615d67962f0e98b846be4"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle2.tar.gz"
+
+[lukvle3]
+git-tree-sha1 = "6c97f595b6270e12af378ff7fa499080820f479d"
+lazy = true
+
+    [[lukvle3.download]]
+    sha256 = "0d0a38be061d9a029bdb59df1059521cca0a669ba4c5a5ab7a4532d747dce07f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle3.tar.gz"
+
+[lukvle4]
+git-tree-sha1 = "8cc1ed10e83a3a6dbc7df46805fc0e26e8ab8c7d"
+lazy = true
+
+    [[lukvle4.download]]
+    sha256 = "fdef3d2ef21cbf745da34bb7c7c9681fa8137ce45cb7fe76e656a7c2c99bd352"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle4.tar.gz"
+
+[lukvle5]
+git-tree-sha1 = "16ef648de311bbc4e59d61068fc0735137bd5546"
+lazy = true
+
+    [[lukvle5.download]]
+    sha256 = "c7b6ad03d508398eff752fefcc28a942a68d55d84f3f1425c9ec8a5f19c84ebd"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle5.tar.gz"
+
+[lukvle6]
+git-tree-sha1 = "a8934b092d4657282163b77340771b94a154f572"
+lazy = true
+
+    [[lukvle6.download]]
+    sha256 = "1460bc3f3b0c6e814b7cadd745d8bdf0a8c5da81d8024c6b88110256602f5e99"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle6.tar.gz"
+
+[lukvle7]
+git-tree-sha1 = "86894efc9ff4bcb331abffd7a33859834f6299c3"
+lazy = true
+
+    [[lukvle7.download]]
+    sha256 = "5317bd25634275bd63f58ce8c396fad1029b562fc17a749e85394d2de0d8de94"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle7.tar.gz"
+
+[lukvle8]
+git-tree-sha1 = "59a231e0d34c82086dd5ae49f90b9d96d7f38c27"
+lazy = true
+
+    [[lukvle8.download]]
+    sha256 = "09dc9a67e8d72359b65887c2bfbe0fee8c0c2b55e7c9a81c83b2bcc206dd6795"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle8.tar.gz"
+
+[lukvle9]
+git-tree-sha1 = "c4f30e20576874647f572cda61ac497ad27c673f"
+lazy = true
+
+    [[lukvle9.download]]
+    sha256 = "1346c33634491bc7cdc42d2d267af6bbe1f57a06bb53e8b816b84ab7c05da74d"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvle9.tar.gz"
+
+[lukvli10]
+git-tree-sha1 = "b72a076116edc1783bc23d55860a84f17a17d22a"
+lazy = true
+
+    [[lukvli10.download]]
+    sha256 = "6678f411438cbef5b2033065cd152592e95a03f0373fef550102479881c7f0d4"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli10.tar.gz"
+
+[lukvli11]
+git-tree-sha1 = "1062e0c34c7cf9fca17d5de314b422521972a650"
+lazy = true
+
+    [[lukvli11.download]]
+    sha256 = "0c9c6eab69f1d7b45a2355bef70cf65d520310d78f4e9f4cb8ed6c2b240a001f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli11.tar.gz"
+
+[lukvli12]
+git-tree-sha1 = "a713fe6f31005587835cfb001cc9fc3fc2003e44"
+lazy = true
+
+    [[lukvli12.download]]
+    sha256 = "631c508930da5aa4b20148a72c64da561ed313c48b207d5c77fbe51721bfaa96"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli12.tar.gz"
+
+[lukvli13]
+git-tree-sha1 = "d85b2d2db7426d8b8f2ea779ea92de9f17c653f9"
+lazy = true
+
+    [[lukvli13.download]]
+    sha256 = "3a3a018265524f4fb4c357e0f3b7979e4984ca6e4312edbadde8a8c12a052186"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli13.tar.gz"
+
+[lukvli14]
+git-tree-sha1 = "9f58f03e0caf97be2411dbe36e24d8e80dffdd5b"
+lazy = true
+
+    [[lukvli14.download]]
+    sha256 = "fc86bf78428ea1da8183eeba2e9c37ce442bc150272dbfc3de2845e1cb315866"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli14.tar.gz"
+
+[lukvli15]
+git-tree-sha1 = "44143ad29ad864ac30166e653e113d0a818cabc3"
+lazy = true
+
+    [[lukvli15.download]]
+    sha256 = "f201e522cb5b273f91ef27461ddbd177093a4bb3c192418f25840bbc94c36244"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli15.tar.gz"
+
+[lukvli16]
+git-tree-sha1 = "2cdb194f5e254124762c7b54c1044fc7bf3dc72d"
+lazy = true
+
+    [[lukvli16.download]]
+    sha256 = "fd3b0f99ee3e502579acaf3c93503790da6bc8ce6234d0f378eb7c272765ec57"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli16.tar.gz"
+
+[lukvli17]
+git-tree-sha1 = "97bdf91da985bc9c49ea530d10d02045505fb5da"
+lazy = true
+
+    [[lukvli17.download]]
+    sha256 = "eefcca214cfa65c8f6ddd01ebda043464572fc27bbd92b3096ef396c4f2abebf"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli17.tar.gz"
+
+[lukvli18]
+git-tree-sha1 = "8522dc30aa482f5a84702caf13ecbec54dcd1491"
+lazy = true
+
+    [[lukvli18.download]]
+    sha256 = "f8f266706474aca9cd54755208967585636b4942fba574337c97a5c5b984a3d9"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli18.tar.gz"
+
+[lukvli2]
+git-tree-sha1 = "b75bbab63ef0f26d85918db39c94dfab5c85d7e0"
+lazy = true
+
+    [[lukvli2.download]]
+    sha256 = "5917e0c147fff03006851552298672c872599a8e17a600cb65ad08f5ae1b675c"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli2.tar.gz"
+
+[lukvli3]
+git-tree-sha1 = "9854581cf204b9c99f36e6d76911539fb1053ed2"
+lazy = true
+
+    [[lukvli3.download]]
+    sha256 = "3c1898bb4667cbbfe96b8d4d34f933914cf54e5337070a50f49383c2ac03e80b"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli3.tar.gz"
+
+[lukvli4]
+git-tree-sha1 = "c2f2ba4db60b266b8e5f9291e8e077fa55fdc749"
+lazy = true
+
+    [[lukvli4.download]]
+    sha256 = "2befdeb4ff01990200c9c06e9ad4f5f30e096f03cf5d33e2b7198ded9d5b2d64"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli4.tar.gz"
+
+[lukvli5]
+git-tree-sha1 = "89cbc06909b448060b4ac7b311e775f450f768b9"
+lazy = true
+
+    [[lukvli5.download]]
+    sha256 = "fb53818680a23b01d4d9f2d0ff16fc32eea91933c66715a419ceb4a2d718f15b"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli5.tar.gz"
+
+[lukvli6]
+git-tree-sha1 = "dc5a4d972df6ed74576bc5aeca65d5860cfabb6c"
+lazy = true
+
+    [[lukvli6.download]]
+    sha256 = "1de9372adc0b00ccacfcbd66238dc13919af11e39169084c7d46de4e1b527f81"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli6.tar.gz"
+
+[lukvli7]
+git-tree-sha1 = "9fa96f701343b2a35dd04f853da36baf64659d59"
+lazy = true
+
+    [[lukvli7.download]]
+    sha256 = "3665d53a6e432ec09148509e8671cd234f56145ac39b8a0efe7a33a856e3de8d"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli7.tar.gz"
+
+[lukvli8]
+git-tree-sha1 = "e5a383a397169e824a47e6f760abb30803566c9a"
+lazy = true
+
+    [[lukvli8.download]]
+    sha256 = "b885ded8754777f75346ad9910209d565b2fffcf6bf07a52d9c7a3799678b290"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli8.tar.gz"
+
+[lukvli9]
+git-tree-sha1 = "041c618e8d25a4e36612d4125f3c41916d99f995"
+lazy = true
+
+    [[lukvli9.download]]
+    sha256 = "514bddb4ec6d4c8f41b3144353940004f70602c58a3314cb43d6104d35b9c50f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/lukvli9.tar.gz"
+
+[marine_1600]
+git-tree-sha1 = "400790228beafd42804130b95d7cceb32095e8e3"
+lazy = true
+
+    [[marine_1600.download]]
+    sha256 = "856c255dbfa0ba1ea629a36f99ecc01f0ace9f2256b787f7e868ebf354944d43"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/marine_1600.tar.gz"
+
+[marine_800]
+git-tree-sha1 = "7e871c2e2e97b1825b176dccf8dfa59cf7e65528"
+lazy = true
+
+    [[marine_800.download]]
+    sha256 = "31bb7bcd2e363b8b8d0ef1e9ce17623858f31e86aedabd06c7071036eb4296f8"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/marine_800.tar.gz"
+
+[nql180]
+git-tree-sha1 = "85ee775307e23bf84415a1587ecd408c21ceeb23"
+lazy = true
+
+    [[nql180.download]]
+    sha256 = "44915a27000aaa54f50c95276cadd860cb7503ffdd29e3443a9957bb014052d9"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/nql180.tar.gz"
+
+[optmass]
+git-tree-sha1 = "087ec635648898a866afe15c8d724c01b1f37063"
+lazy = true
+
+    [[optmass.download]]
+    sha256 = "1475b6e2183e3f16018650cb90e787f1169d05e4ae3d7dd31a56fc3e8b69ccbb"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/optmass.tar.gz"
+
+[pinene_1600]
+git-tree-sha1 = "9e86a1085c4c8022ab7ab6fff539ed68c5cc77a0"
+lazy = true
+
+    [[pinene_1600.download]]
+    sha256 = "a2277a94f51f3adb18681e683a1d20ea0bf9992900306a0af4839612a782c9fd"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/pinene_1600.tar.gz"
+
+[pinene_3200]
+git-tree-sha1 = "2d88ed57c12cba0f3d3c7032daf55bae44c6a767"
+lazy = true
+
+    [[pinene_3200.download]]
+    sha256 = "a28bb61555792cac701535caacd50ecd1be499ae45a1a265425a36845d5ac09f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/pinene_3200.tar.gz"
+
+[qcqp1000-1c]
+git-tree-sha1 = "06b2c528f50ff45b1890e556ef1e5cf6cc3b52f3"
+lazy = true
+
+    [[qcqp1000-1c.download]]
+    sha256 = "501111d85e52b0b19df9272856bb332a8b3d659d86da1f8763ae7c43337180af"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-1c.tar.gz"
+
+[qcqp1000-1nc]
+git-tree-sha1 = "a1314d8908314018e2f928b62c98917710b5eba8"
+lazy = true
+
+    [[qcqp1000-1nc.download]]
+    sha256 = "62da71401d3651c139780264d9b6e4360ff0e91105399c70862ca19386a66f87"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-1nc.tar.gz"
+
+[qcqp1000-2c]
+git-tree-sha1 = "04ac5035db652aa64f3b3ecb1421e780834d9b8a"
+lazy = true
+
+    [[qcqp1000-2c.download]]
+    sha256 = "493526c3e81db00f13dcba65a763b5d1297cbf6f33c84b8cf4721b5dbba04c59"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-2c.tar.gz"
+
+[qcqp1000-2nc]
+git-tree-sha1 = "4e160b2330f97d9df2c5e0a98cdfa37290b39623"
+lazy = true
+
+    [[qcqp1000-2nc.download]]
+    sha256 = "70eba588ba989f6cf04846f55fde8f07906379cc013377e30ebb5c0d5991e40d"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1000-2nc.tar.gz"
+
+[qcqp1500-1c]
+git-tree-sha1 = "5bdb4c46be375bc3962e362612e792ea3aa2af34"
+lazy = true
+
+    [[qcqp1500-1c.download]]
+    sha256 = "eab468d2881a3a69ec0f064ec35166412d157c5dc9fc7d346b96d72a670fdec6"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1500-1c.tar.gz"
+
+[qcqp1500-1nc]
+git-tree-sha1 = "7b74d1fced81b01526b6ba551370805a2dc55158"
+lazy = true
+
+    [[qcqp1500-1nc.download]]
+    sha256 = "88d32526b8faada27c772f126988a6f534939b42cd7c52d594faa29a5ceaae7f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp1500-1nc.tar.gz"
+
+[qcqp500-1c]
+git-tree-sha1 = "56568105c723f9b46bba301321feced2f9ee93c6"
+lazy = true
+
+    [[qcqp500-1c.download]]
+    sha256 = "d0af47a454ea678f623ed33d1db3890eb9832e9f9eb00862d4850ce48e0009e1"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-1c.tar.gz"
+
+[qcqp500-1nc]
+git-tree-sha1 = "00c5547ac5e23665d5f44f0d08c88f01f8294d74"
+lazy = true
+
+    [[qcqp500-1nc.download]]
+    sha256 = "f68a24506c1cad92049d2362ff1515edededb6c184506c5179eaf84e8cda49c9"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-1nc.tar.gz"
+
+[qcqp500-2c]
+git-tree-sha1 = "e247af94863b5c9637bb1cfe80b02d45f511f5f6"
+lazy = true
+
+    [[qcqp500-2c.download]]
+    sha256 = "5bed175d7bdf0d7d5f6bb2d66a2b63228e2e442efb212c62c2e1c9fad37a0243"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-2c.tar.gz"
+
+[qcqp500-2nc]
+git-tree-sha1 = "1b348c6637997d4c3f01df39cbdc9d9b91fd3d46"
+lazy = true
+
+    [[qcqp500-2nc.download]]
+    sha256 = "4add8298ac84c10ccecc365addfbb7e2683818dfb83a2df3bcffe7149924c1d0"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-2nc.tar.gz"
+
+[qcqp500-3c]
+git-tree-sha1 = "a95637419104f2a8742f135f1158b67ed9ed4fd1"
+lazy = true
+
+    [[qcqp500-3c.download]]
+    sha256 = "a8a0d21f319d2a395c9f9a1855b2ae550cdabbdd116a8543bc0499903297f20b"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-3c.tar.gz"
+
+[qcqp500-3nc]
+git-tree-sha1 = "2d4643c918d17a66723b20b2112280ee8bdfb3c5"
+lazy = true
+
+    [[qcqp500-3nc.download]]
+    sha256 = "75b352ea5c92a8eee0ee7be6d95f8e59a4bfdac6dfe93dfa9f56c808ff240519"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp500-3nc.tar.gz"
+
+[qcqp750-1c]
+git-tree-sha1 = "699794487f8c34e081e0d1856aeb288c9c4e8896"
+lazy = true
+
+    [[qcqp750-1c.download]]
+    sha256 = "d9e51734e2fdc6152f94c488bb9d3467fd67c2016f66eccd7fe4f9ade368fa52"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-1c.tar.gz"
+
+[qcqp750-1nc]
+git-tree-sha1 = "43d12fb2322a8d1446849d2ee189522e9fa83c5f"
+lazy = true
+
+    [[qcqp750-1nc.download]]
+    sha256 = "de8ef9fa066b9851d56c80fcfa53b233536443ac1c3ef080a40e122bf03eb12e"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-1nc.tar.gz"
+
+[qcqp750-2c]
+git-tree-sha1 = "01b33b3cf13aad141cc0be519787a5f66ed31fce"
+lazy = true
+
+    [[qcqp750-2c.download]]
+    sha256 = "01da64014af7233ceae4b514772f018939ecf3aa185aeb47e6147d263382e2cb"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-2c.tar.gz"
+
+[qcqp750-2nc]
+git-tree-sha1 = "de7d9af542238df876d297e5bb99f6b5c7c6af44"
+lazy = true
+
+    [[qcqp750-2nc.download]]
+    sha256 = "e1a87b5001178094b0359615ab221638a309efc36a58cc8cd27242a8190f3d1e"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qcqp750-2nc.tar.gz"
+
+[qssp180]
+git-tree-sha1 = "fe5b58ab7b4e2661640c01634fb3a687da4c374f"
+lazy = true
+
+    [[qssp180.download]]
+    sha256 = "de612cd73ab1b225ba7a8548e674fba792f71e995535b18a1b731504875ab2ee"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qssp180.tar.gz"
+
+[qssp60]
+git-tree-sha1 = "33a64389924613fd75c2a1901c5148f959aeb45f"
+lazy = true
+
+    [[qssp60.download]]
+    sha256 = "bad925b2f42e64c339821d11d395b8a5e19412bfa8e247a5ebc0a467f3c6eea1"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/qssp60.tar.gz"
+
+[robot_1600]
+git-tree-sha1 = "cb4cdd540858c7106771184965da8e3654acd2ca"
+lazy = true
+
+    [[robot_1600.download]]
+    sha256 = "57ad485383815467543589bc59f306935f405bbb41f3032ab5940009ca675229"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_1600.tar.gz"
+
+[robot_800]
+git-tree-sha1 = "a6864d08c549951ddbf2d222024d657f17ee3c23"
+lazy = true
+
+    [[robot_800.download]]
+    sha256 = "dc17ac1ca863069fca0e1a8f00cb6a7fc61f91d17e41567168f87338a4ea98de"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_800.tar.gz"
+
+[robot_a]
+git-tree-sha1 = "19fde0363ad21e22be6973365537af63abe5fc89"
+lazy = true
+
+    [[robot_a.download]]
+    sha256 = "f70720c3fdc81291a10d18012fae3588a9d49e6c870b6a3291ff334b5b1ce3f6"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_a.tar.gz"
+
+[robot_b]
+git-tree-sha1 = "875e6d45a9bb9170190283a9a0b87935ad37f399"
+lazy = true
+
+    [[robot_b.download]]
+    sha256 = "7e207b69eed47bef428f1fdca5e77bec41927c3780c39a4f17288671ecd9542c"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_b.tar.gz"
+
+[robot_c]
+git-tree-sha1 = "b7634b01e24feb316d88a921384b3eb932fb1cc8"
+lazy = true
+
+    [[robot_c.download]]
+    sha256 = "d111adceb9d32d5d0081714000a68452490c5313a5d945c318ec233d20632cbf"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/robot_c.tar.gz"
+
+[rocket_12800]
+git-tree-sha1 = "6a7c4748ec7dd4cd097e6b6dfa92a19d8d3c7e88"
+lazy = true
+
+    [[rocket_12800.download]]
+    sha256 = "a6e9990e2abdb30710d7544bd7b372f298d4c386592b10fe353d3fd223e727ea"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/rocket_12800.tar.gz"
+
+[rocket_6400]
+git-tree-sha1 = "7f65d212027e93be600cf1116362f2bc7933899b"
+lazy = true
+
+    [[rocket_6400.download]]
+    sha256 = "1d1fa5fdfb7a6eefa6cda233bdcafa12c34a87f13870a76232c9859d3aa83a30"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/rocket_6400.tar.gz"
+
+[steering_12800]
+git-tree-sha1 = "b712d9b1dca7c2da767efef667ebadcd807c3dc9"
+lazy = true
+
+    [[steering_12800.download]]
+    sha256 = "ae261ae727ce283d23ef626515ca78c1a2786fb4fadafe9dde843a362e1d880f"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/steering_12800.tar.gz"
+
+[steering_6400]
+git-tree-sha1 = "79663a4cf9407e95c7bd5517b8cdf9dd585a1dda"
+lazy = true
+
+    [[steering_6400.download]]
+    sha256 = "f821854334df1607f2097146325acd6cd234138563959221dc855ebb5d286a3d"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/steering_6400.tar.gz"
+
+[svanberg]
+git-tree-sha1 = "933752d34980dfdacb21cc0793c1ab5ee16453e4"
+lazy = true
+
+    [[svanberg.download]]
+    sha256 = "c452324ea12b483d2b35ef3ce1bb738e4be41591784258a2bcb009fcf1263c13"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/svanberg.tar.gz"
 
 [twod]
 git-tree-sha1 = "3ad729c7f07fb92201a300533d3acab6ccc6d39e"
