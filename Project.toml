@@ -1,0 +1,27 @@
+name = "ExaMittelmann"
+uuid = "4a782417-a389-4eb4-8fdf-efdc5dee37fc"
+version = "0.1.0"
+
+[deps]
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+ExaModels = "1037b233-b668-4ce9-9b63-f9f681f55dd2"
+ExaModelsIO = "5de388b7-cc24-42d7-844b-21625f2005ef"
+LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+ExaModels = "0.14"
+ExaModelsIO = "0.1"
+julia = "1.11"
+
+[sources]
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "e6af4e04b40f84c662dea5b5e94090468093f869"}
+
+[extras]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["CUDA", "KernelAbstractions", "NLPModels", "Test"]

@@ -1,0 +1,9 @@
+[deps]
+Downloads = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+MittelmannHelper = "780d9346-0a4d-4e84-9838-2d8c1659c5b9"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[sources]
+MittelmannHelper = {path = "../lib/MittelmannHelper"}

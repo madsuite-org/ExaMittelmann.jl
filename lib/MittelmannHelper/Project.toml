@@ -1,0 +1,34 @@
+name = "MittelmannHelper"
+uuid = "780d9346-0a4d-4e84-9838-2d8c1659c5b9"
+version = "0.1.0"
+
+[deps]
+ExaModels = "1037b233-b668-4ce9-9b63-f9f681f55dd2"
+ExaModelsIO = "5de388b7-cc24-42d7-844b-21625f2005ef"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[weakdeps]
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+
+[extensions]
+MittelmannHelperJuMPExt = "JuMP"
+
+[sources]
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "e6af4e04b40f84c662dea5b5e94090468093f869"}
+
+[compat]
+ExaModels = "0.14"
+ExaModelsIO = "0.1"
+JuMP = "1.23"
+julia = "1.11"
+
+[extras]
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["CUDA", "JuMP", "KernelAbstractions", "NLPModels", "Test"]

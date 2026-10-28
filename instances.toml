@@ -1,0 +1,967 @@
+[NARX_CFy]
+benchmark = true
+ncon = 48256
+nnzh = 164588
+nnzj = 291998
+nvar = 43973
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/NARX_CFy.mod"
+
+[Weyl_m0]
+benchmark = false
+ncon = 2555
+nnzh = 391020
+nnzj = 270070
+nvar = 1680
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/Weyl_m0.mod"
+
+[arki0003]
+benchmark = true
+ncon = 2138
+nnzh = 5142
+nnzj = 11646
+nvar = 1872
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/arki0003.mod"
+
+[arki0009]
+benchmark = true
+ncon = 5924
+nnzh = 790
+nnzj = 24823
+nvar = 6220
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/arki0009.mod"
+
+[bearing_200]
+benchmark = false
+ncon = 0
+nnzh = 479200
+nnzj = 0
+nvar = 40000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/bearing_200.mod"
+
+[bearing_400]
+benchmark = true
+ncon = 0
+nnzh = 1918400
+nnzj = 0
+nvar = 160000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/bearing_400.mod"
+
+[camshape_1600]
+benchmark = false
+ncon = 4797
+nnzh = 14389
+nnzj = 15990
+nvar = 1600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/camshape_1600.mod"
+
+[camshape_6400]
+benchmark = true
+ncon = 19197
+nnzh = 57589
+nnzj = 63990
+nvar = 6400
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/camshape_6400.mod"
+
+[clnlbeam]
+benchmark = true
+ncon = 40000
+nnzh = 119996
+nnzj = 159994
+nvar = 59999
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/clnlbeam.mod"
+
+[cont5_1]
+benchmark = false
+ncon = 40200
+nnzh = 601
+nnzj = 239803
+nvar = 40400
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_1.mod"
+
+[cont5_1_l]
+benchmark = true
+ncon = 90300
+nnzh = 901
+nnzj = 539703
+nvar = 90600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_1_l.mod"
+
+[cont5_2_1]
+benchmark = false
+ncon = 40200
+nnzh = 401
+nnzj = 239603
+nvar = 40400
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_1.mod"
+
+[cont5_2_1_l]
+benchmark = true
+ncon = 90300
+nnzh = 601
+nnzj = 539403
+nvar = 90600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_1_l.mod"
+
+[cont5_2_2]
+benchmark = false
+ncon = 40200
+nnzh = 601
+nnzj = 239803
+nvar = 40400
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_2.mod"
+
+[cont5_2_2_l]
+benchmark = true
+ncon = 90300
+nnzh = 901
+nnzj = 539703
+nvar = 90600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_2_l.mod"
+
+[cont5_2_3]
+benchmark = false
+ncon = 40200
+nnzh = 601
+nnzj = 239803
+nvar = 40400
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_3.mod"
+
+[cont5_2_3_l]
+benchmark = true
+ncon = 90300
+nnzh = 901
+nnzj = 539703
+nvar = 90600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_3_l.mod"
+
+[cont5_2_4]
+benchmark = false
+ncon = 40200
+nnzh = 833416
+nnzj = 478006
+nvar = 40400
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_4.mod"
+
+[cont5_2_4_l]
+benchmark = true
+ncon = 90300
+nnzh = 1880116
+nnzj = 1077006
+nvar = 90600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont5_2_4_l.mod"
+
+[cont_p]
+benchmark = false
+ncon = 11774
+nnzh = 11896
+nnzj = 81594
+nvar = 11835
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/cont_p.mod"
+
+[corkscrw]
+benchmark = true
+ncon = 35000
+nnzh = 35000
+nnzj = 109988
+nvar = 44997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/corkscrw.mod"
+
+[dirichlet120]
+benchmark = true
+ncon = 241
+nnzh = 2050471
+nnzj = 1691400
+nvar = 53881
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/dirichlet120.mod"
+
+[dirichlet40]
+benchmark = false
+ncon = 81
+nnzh = 683191
+nnzj = 563800
+nvar = 17961
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/dirichlet40.mod"
+
+[dirichlet80]
+benchmark = false
+ncon = 161
+nnzh = 1366831
+nnzj = 1127600
+nvar = 35921
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/dirichlet80.mod"
+
+[dtoc1nd]
+benchmark = true
+ncon = 3725
+nnzh = 4168460
+nnzj = 2843169
+nvar = 5960
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/dtoc1nd.mod"
+
+[dtoc2]
+benchmark = true
+ncon = 38970
+nnzh = 2473530
+nnzj = 857310
+nvar = 64950
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/dtoc2.mod"
+
+[elec_200]
+benchmark = false
+ncon = 200
+nnzh = 418500
+nnzj = 600
+nvar = 600
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/elec_200.mod"
+
+[elec_400]
+benchmark = true
+ncon = 400
+nnzh = 1677000
+nnzj = 1200
+nvar = 1200
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/elec_400.mod"
+
+[ex1_160]
+benchmark = true
+ncon = 25281
+nnzh = 75843
+nnzj = 176331
+nvar = 50562
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex1_160.mod"
+
+[ex1_320]
+benchmark = true
+ncon = 101761
+nnzh = 305283
+nnzj = 711051
+nvar = 203522
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex1_320.mod"
+
+[ex2_160]
+benchmark = false
+ncon = 25281
+nnzh = 50562
+nnzj = 176331
+nvar = 50562
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex2_160.mod"
+
+[ex2_320]
+benchmark = false
+ncon = 101761
+nnzh = 203522
+nnzj = 711051
+nvar = 203522
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex2_320.mod"
+
+[ex3_160]
+benchmark = false
+ncon = 25281
+nnzh = 75843
+nnzj = 176331
+nvar = 50562
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex3_160.mod"
+
+[ex3_320]
+benchmark = false
+ncon = 101761
+nnzh = 305283
+nnzj = 711051
+nvar = 203522
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex3_320.mod"
+
+[ex4_160]
+benchmark = false
+ncon = 25917
+nnzh = 75843
+nnzj = 178239
+nvar = 51198
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex4_160.mod"
+
+[ex4_2_160]
+benchmark = true
+ncon = 25917
+nnzh = 126405
+nnzj = 178239
+nvar = 51198
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex4_2_160.mod"
+
+[ex4_2_320]
+benchmark = true
+ncon = 103037
+nnzh = 508805
+nnzj = 714879
+nvar = 204798
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex4_2_320.mod"
+
+[ex4_320]
+benchmark = false
+ncon = 103037
+nnzh = 305283
+nnzj = 714879
+nvar = 204798
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex4_320.mod"
+
+[ex5_160]
+benchmark = false
+ncon = 25917
+nnzh = 50562
+nnzj = 178239
+nvar = 51198
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex5_160.mod"
+
+[ex5_320]
+benchmark = false
+ncon = 103037
+nnzh = 203522
+nnzj = 714879
+nvar = 204798
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex5_320.mod"
+
+[ex6_160]
+benchmark = false
+ncon = 25917
+nnzh = 202248
+nnzj = 178239
+nvar = 51198
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex6_160.mod"
+
+[ex6_320]
+benchmark = false
+ncon = 103037
+nnzh = 814088
+nnzj = 714879
+nvar = 204798
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex6_320.mod"
+
+[ex8_2_2]
+benchmark = true
+ncon = 1943
+nnzh = 22506
+nnzj = 15136
+nvar = 7510
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex8_2_2.mod"
+
+[ex8_2_3]
+benchmark = true
+ncon = 3155
+nnzh = 46881
+nnzj = 31310
+nvar = 15636
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/ex8_2_3.mod"
+
+[gasoil_1600]
+benchmark = false
+ncon = 15998
+nnzh = 448524
+nnzj = 191974
+nvar = 16001
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/gasoil_1600.mod"
+
+[gasoil_3200]
+benchmark = true
+ncon = 31998
+nnzh = 896524
+nnzj = 383974
+nvar = 32001
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/gasoil_3200.mod"
+
+[henon120]
+benchmark = true
+ncon = 241
+nnzh = 984450
+nnzj = 786840
+nvar = 32401
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/henon120.mod"
+
+[henon40]
+benchmark = false
+ncon = 81
+nnzh = 327970
+nnzj = 262280
+nvar = 10801
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/henon40.mod"
+
+[henon80]
+benchmark = false
+ncon = 161
+nnzh = 656210
+nnzj = 524560
+nvar = 21601
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/henon80.mod"
+
+[lane_emden120]
+benchmark = true
+ncon = 241
+nnzh = 1498439
+nnzj = 1225320
+nvar = 57721
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lane_emden120.mod"
+
+[lane_emden40]
+benchmark = false
+ncon = 81
+nnzh = 499159
+nnzj = 408440
+nvar = 19241
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lane_emden40.mod"
+
+[lane_emden80]
+benchmark = false
+ncon = 161
+nnzh = 998799
+nnzj = 816880
+nvar = 38481
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lane_emden80.mod"
+
+[lukvle1]
+benchmark = false
+ncon = 149998
+nnzh = 1799980
+nnzj = 1049986
+nvar = 150000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle1.mod"
+
+[lukvle10]
+benchmark = false
+ncon = 249998
+nnzh = 999998
+nnzj = 749994
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle10.mod"
+
+[lukvle11]
+benchmark = false
+ncon = 166664
+nnzh = 1249980
+nnzj = 583324
+nvar = 249998
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle11.mod"
+
+[lukvle12]
+benchmark = false
+ncon = 187497
+nnzh = 1124982
+nnzj = 499992
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle12.mod"
+
+[lukvle13]
+benchmark = false
+ncon = 166664
+nnzh = 749988
+nnzj = 666656
+nvar = 249998
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle13.mod"
+
+[lukvle14]
+benchmark = false
+ncon = 166664
+nnzh = 666656
+nnzj = 499992
+nvar = 249998
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle14.mod"
+
+[lukvle15]
+benchmark = false
+ncon = 187497
+nnzh = 937485
+nnzj = 562491
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle15.mod"
+
+[lukvle16]
+benchmark = false
+ncon = 187497
+nnzh = 687489
+nnzj = 437493
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle16.mod"
+
+[lukvle17]
+benchmark = false
+ncon = 187497
+nnzh = 687489
+nnzj = 437493
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle17.mod"
+
+[lukvle18]
+benchmark = false
+ncon = 187497
+nnzh = 687489
+nnzj = 437493
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle18.mod"
+
+[lukvle2]
+benchmark = false
+ncon = 249993
+nnzh = 3749921
+nnzj = 1999929
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle2.mod"
+
+[lukvle3]
+benchmark = false
+ncon = 2
+nnzh = 1500001
+nnzj = 7
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle3.mod"
+
+[lukvle4]
+benchmark = false
+ncon = 249998
+nnzh = 2374986
+nnzj = 999992
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle4.mod"
+
+[lukvle5]
+benchmark = false
+ncon = 249996
+nnzh = 2999970
+nnzj = 1999968
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle5.mod"
+
+[lukvle6]
+benchmark = false
+ncon = 124999
+nnzh = 9249852
+nnzj = 499996
+nvar = 249999
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle6.mod"
+
+[lukvle7]
+benchmark = false
+ncon = 4
+nnzh = 750014
+nnzj = 22
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle7.mod"
+
+[lukvle8]
+benchmark = false
+ncon = 249998
+nnzh = 2399998
+nnzj = 999992
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle8.mod"
+
+[lukvle9]
+benchmark = false
+ncon = 6
+nnzh = 500036
+nnzj = 53
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvle9.mod"
+
+[lukvli10]
+benchmark = false
+ncon = 249998
+nnzh = 999998
+nnzj = 749994
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli10.mod"
+
+[lukvli11]
+benchmark = false
+ncon = 166664
+nnzh = 1249980
+nnzj = 583324
+nvar = 249998
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli11.mod"
+
+[lukvli12]
+benchmark = false
+ncon = 187497
+nnzh = 1124982
+nnzj = 499992
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli12.mod"
+
+[lukvli13]
+benchmark = false
+ncon = 166664
+nnzh = 749988
+nnzj = 666656
+nvar = 249998
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli13.mod"
+
+[lukvli14]
+benchmark = false
+ncon = 166664
+nnzh = 666656
+nnzj = 499992
+nvar = 249998
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli14.mod"
+
+[lukvli15]
+benchmark = false
+ncon = 187497
+nnzh = 937485
+nnzj = 562491
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli15.mod"
+
+[lukvli16]
+benchmark = false
+ncon = 187497
+nnzh = 687489
+nnzj = 437493
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli16.mod"
+
+[lukvli17]
+benchmark = false
+ncon = 187497
+nnzh = 687489
+nnzj = 437493
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli17.mod"
+
+[lukvli18]
+benchmark = false
+ncon = 187497
+nnzh = 687489
+nnzj = 437493
+nvar = 249997
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli18.mod"
+
+[lukvli2]
+benchmark = false
+ncon = 249993
+nnzh = 3749921
+nnzj = 1999929
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli2.mod"
+
+[lukvli3]
+benchmark = false
+ncon = 2
+nnzh = 1500001
+nnzj = 7
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli3.mod"
+
+[lukvli4]
+benchmark = false
+ncon = 249998
+nnzh = 2374986
+nnzj = 999992
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli4.mod"
+
+[lukvli5]
+benchmark = false
+ncon = 249996
+nnzh = 2999970
+nnzj = 1999968
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli5.mod"
+
+[lukvli6]
+benchmark = false
+ncon = 124999
+nnzh = 9249852
+nnzj = 499996
+nvar = 249999
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli6.mod"
+
+[lukvli7]
+benchmark = false
+ncon = 4
+nnzh = 750014
+nnzj = 22
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli7.mod"
+
+[lukvli8]
+benchmark = false
+ncon = 249998
+nnzh = 2399998
+nnzj = 999992
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli8.mod"
+
+[lukvli9]
+benchmark = false
+ncon = 6
+nnzh = 500036
+nnzj = 53
+nvar = 250000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/lukvli9.mod"
+
+[marine_1600]
+benchmark = true
+ncon = 38392
+nnzh = 592208
+nnzj = 316768
+nvar = 38415
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/marine_1600.mod"
+
+[marine_800]
+benchmark = false
+ncon = 19192
+nnzh = 296208
+nnzj = 158368
+nvar = 19215
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/marine_800.mod"
+
+[nql180]
+benchmark = true
+ncon = 130080
+nnzh = 64800
+nnzj = 679619
+nvar = 129601
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/nql180.mod.gz"
+
+[optmass]
+benchmark = true
+ncon = 50005
+nnzh = 20006
+nnzj = 160010
+nvar = 60006
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/optmass.mod"
+
+[pinene_1600]
+benchmark = false
+ncon = 31995
+nnzh = 633874
+nnzj = 313546
+nvar = 32000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/pinene_1600.mod"
+
+[pinene_3200]
+benchmark = true
+ncon = 63995
+nnzh = 1267474
+nnzj = 627146
+nvar = 64000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/pinene_3200.mod"
+
+[qcqp1000-1c]
+benchmark = false
+ncon = 154
+nnzh = 648596
+nnzj = 346659
+nvar = 1000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp1000-1c.mod"
+
+[qcqp1000-1nc]
+benchmark = true
+ncon = 154
+nnzh = 547274
+nnzj = 346659
+nvar = 1000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp1000-1nc.mod"
+
+[qcqp1000-2c]
+benchmark = true
+ncon = 5107
+nnzh = 1029908
+nnzj = 656443
+nvar = 1000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp1000-2c.mod"
+
+[qcqp1000-2nc]
+benchmark = true
+ncon = 5107
+nnzh = 928586
+nnzj = 656443
+nvar = 1000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp1000-2nc.mod"
+
+[qcqp1500-1c]
+benchmark = true
+ncon = 10508
+nnzh = 3506742
+nnzj = 2245107
+nvar = 1500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp1500-1c.mod"
+
+[qcqp1500-1nc]
+benchmark = true
+ncon = 10508
+nnzh = 3178596
+nnzj = 2245107
+nvar = 1500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp1500-1nc.mod"
+
+[qcqp500-1c]
+benchmark = false
+ncon = 130
+nnzh = 5372932
+nnzj = 3569977
+nvar = 500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp500-1c.mod"
+
+[qcqp500-1nc]
+benchmark = false
+ncon = 130
+nnzh = 5359540
+nnzj = 3569977
+nvar = 500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp500-1nc.mod"
+
+[qcqp500-2c]
+benchmark = false
+ncon = 177
+nnzh = 4342810
+nnzj = 2893504
+nvar = 500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp500-2c.mod"
+
+[qcqp500-2nc]
+benchmark = false
+ncon = 178
+nnzh = 4329418
+nnzj = 2893505
+nvar = 500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp500-2nc.mod"
+
+[qcqp500-3c]
+benchmark = true
+ncon = 120
+nnzh = 6960478
+nnzj = 4628294
+nvar = 500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp500-3c.mod"
+
+[qcqp500-3nc]
+benchmark = true
+ncon = 120
+nnzh = 6947086
+nnzj = 4628294
+nvar = 500
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp500-3nc.mod"
+
+[qcqp750-1c]
+benchmark = false
+ncon = 245
+nnzh = 2681082
+nnzj = 1760185
+nvar = 750
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp750-1c.mod"
+
+[qcqp750-1nc]
+benchmark = false
+ncon = 245
+nnzh = 2638362
+nnzj = 1760185
+nvar = 750
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp750-1nc.mod"
+
+[qcqp750-2c]
+benchmark = true
+ncon = 138
+nnzh = 20852814
+nnzj = 13865785
+nvar = 750
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp750-2c.mod"
+
+[qcqp750-2nc]
+benchmark = true
+ncon = 138
+nnzh = 20810094
+nnzj = 13865785
+nvar = 750
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qcqp750-2nc.mod"
+
+[qssp180]
+benchmark = true
+ncon = 130141
+nnzh = 196023
+nnzj = 1485732
+nvar = 196024
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qssp180.mod.gz"
+
+[qssp60]
+benchmark = false
+ncon = 14581
+nnzh = 22143
+nnzj = 164052
+nvar = 22144
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/qssp60.mod.gz"
+
+[robot_1600]
+benchmark = true
+ncon = 9601
+nnzh = 107146
+nnzj = 57578
+nvar = 14399
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/robot_1600.mod"
+
+[robot_800]
+benchmark = false
+ncon = 4801
+nnzh = 53546
+nnzj = 28778
+nvar = 7199
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/robot_800.mod"
+
+[robot_a]
+benchmark = true
+ncon = 52013
+nnzh = 1572228
+nnzj = 650741
+nvar = 1001
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/robot_a.mod"
+
+[robot_b]
+benchmark = true
+ncon = 52013
+nnzh = 1572228
+nnzj = 650741
+nvar = 1001
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/robot_b.mod"
+
+[robot_c]
+benchmark = true
+ncon = 52013
+nnzh = 1572228
+nnzj = 650741
+nvar = 1001
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/robot_c.mod"
+
+[rocket_12800]
+benchmark = true
+ncon = 38400
+nnzh = 755162
+nnzj = 268791
+nvar = 51201
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/rocket_12800.mod"
+
+[rocket_6400]
+benchmark = false
+ncon = 19200
+nnzh = 377562
+nnzj = 134391
+nvar = 25601
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/rocket_6400.mod"
+
+[steering_12800]
+benchmark = true
+ncon = 51201
+nnzh = 307188
+nnzj = 255991
+nvar = 64000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/steering_12800.mod"
+
+[steering_6400]
+benchmark = false
+ncon = 25601
+nnzh = 153588
+nnzj = 127991
+nvar = 32000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/steering_6400.mod"
+
+[svanberg]
+benchmark = true
+ncon = 50000
+nnzh = 500000
+nnzj = 450000
+nvar = 50000
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/svanberg.mod"
