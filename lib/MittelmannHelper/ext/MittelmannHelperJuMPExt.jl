@@ -50,7 +50,9 @@ function MittelmannHelper.to_core(model::JuMP.Model)
     JuMP.nonlinear_model(model) === nothing || throw(ArgumentError(
         "legacy @NL constraints are not supported; read .nl files with `read_nl`",
     ))
-    moim = MOI.Utilities.Model{Float64}()
+    # UniversalFallback keeps the starting point (VariablePrimalStart), which a plain
+    # Utilities.Model drops during copy_to without an error
+    moim = MOI.Utilities.UniversalFallback(MOI.Utilities.Model{Float64}())
     index_map = MOI.copy_to(moim, JuMP.backend(model))
     F = MOI.get(moim, MOI.ObjectiveFunctionType())
     if F <: MOI.ScalarNonlinearFunction
@@ -131,6 +133,7 @@ function MittelmannHelper.check_core(core, maps, model::JuMP.Model; x = nothing)
         # rows compared as (g - l, u - g), which does not depend on where a constant is kept
         cons = _rel([ge .- lcon; ucon .- ge], [cr .- lr; ur .- cr]),
         bounds = _rel([em.meta.lvar[pv]; em.meta.uvar[pv]], [lvar; uvar]),
+        x0 = _rel(em.meta.x0[pv], x0),
     )
 end
 

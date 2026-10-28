@@ -138,7 +138,8 @@ function to_core end
 
 Evaluate the `ExaModel` of `core` and the JuMP `model` at `x` (default: the starting
 point plus a small perturbation) and return the largest relative differences in
-objective, gradient, constraint rows and variable bounds. Needs `JuMP`.
+objective, gradient, constraint rows, variable bounds and the starting point
+(`x0`, JuMP's start values with 0 where none is set). Needs `JuMP`.
 """
 function check_core end
 

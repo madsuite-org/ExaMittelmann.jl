@@ -31,6 +31,7 @@ end
     core, maps = to_core(jm)
     err = check_core(core, maps, jm)
     @test maximum(err) < 1e-12
+    @test any(!iszero, Array(core.x0))     # JuMP's start values reach the ExaCore
 
     dir = mktempdir()
     m1 = ExaModels.ExaModel(core)
