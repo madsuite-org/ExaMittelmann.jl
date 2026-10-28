@@ -965,3 +965,22 @@ nnzh = 500000
 nnzj = 450000
 nvar = 50000
 source = "https://plato.asu.edu/ftp/ampl-nlp-source/svanberg.mod"
+
+[WM_CFy]
+benchmark = true
+buffered = true
+builder = "gen/wm_cfy.jl"
+ncon = 12850
+nnzh = 144397
+nnzj = 863318
+nvar = 8711
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/WM_CFy.mod"
+
+[twod]
+benchmark = false
+builder = "gen/twod.jl"
+ncon = 125498500
+nnzh = 500501
+nnzj = 1248248500
+nvar = 126001001
+source = "https://plato.asu.edu/ftp/ampl-nlp-source/twod.mod"

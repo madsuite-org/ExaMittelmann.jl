@@ -9,7 +9,7 @@ module ExaMittelmann
 using Artifacts, LazyArtifacts, TOML
 import ExaModels, ExaModelsIO
 
-export mittelmann, mittelmann_file, mittelmann_instances, twod, wm_cfy
+export mittelmann, mittelmann_file, mittelmann_instances
 
 const ARTIFACTS_TOML = joinpath(@__DIR__, "..", "Artifacts.toml")
 const INSTANCES = TOML.parsefile(joinpath(@__DIR__, "..", "instances.toml"))
@@ -40,12 +40,15 @@ end
 
 Instance `name` as an `ExaModel` on `backend` (`nothing` for CPU, or a
 KernelAbstractions backend such as `CUDABackend()`), read with
-`ExaModelsIO.read_model`.
+`ExaModelsIO.read_model`. `WM_CFy` needs an ExaModels with buffered subexpressions.
 """
-mittelmann(name::AbstractString; backend = nothing) =
-    ExaModelsIO.read_model(mittelmann_file(name); backend)
-
-include("twod.jl")
-include("wm_cfy.jl")
+function mittelmann(name::AbstractString; backend = nothing)
+    file = mittelmann_file(name)
+    if get(INSTANCES[name], "buffered", false) && !isdefined(ExaModels, :BufferedExpression)
+        error("$name uses buffered subexpressions, which ExaModels $(pkgversion(ExaModels)) " *
+              "does not have; they are on the ExaModels branch compile-time-prototypes")
+    end
+    return ExaModelsIO.read_model(file; backend)
+end
 
 end # module ExaMittelmann

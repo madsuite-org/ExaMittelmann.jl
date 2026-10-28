@@ -965,3 +965,19 @@ lazy = true
     [[svanberg.download]]
     sha256 = "83f0d63b93ee74033007ed91101e282ffff13dcd51858305889186a76b0960f3"
     url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/svanberg.tar.gz"
+
+[WM_CFy]
+git-tree-sha1 = "13c64245d830208762acd4573a696715548ca99e"
+lazy = true
+
+    [[WM_CFy.download]]
+    sha256 = "032dc0f590698b1b7e102a9b850a69907ade86573481822ac46653870671967d"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/WM_CFy.tar.gz"
+
+[twod]
+git-tree-sha1 = "3ad729c7f07fb92201a300533d3acab6ccc6d39e"
+lazy = true
+
+    [[twod.download]]
+    sha256 = "71eff0d6a1e04caac44d37e07460554cf2fb46c2bac573b1c8b8d0e42b42b095"
+    url = "https://github.com/madsuite-org/ExaMittelmann.jl/releases/download/rolling/twod.tar.gz"

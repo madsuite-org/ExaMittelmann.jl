@@ -20,7 +20,7 @@ function wm_cfy(; backend = nothing, T = Float64, kwargs...)
         "wm_cfy needs buffered subexpressions (`add_expr(...; buffered = true)`), which " *
         "ExaModels $(pkgversion(ExaModels)) does not have",
     )
-    d = TOML.parsefile(joinpath(@__DIR__, "..", "data", "WM_CFy.toml"))
+    d = TOML.parsefile(joinpath(@__DIR__, "WM_CFy.toml"))
     rows(v) = permutedims(reduce(hcat, v))
     a1, a2, alpha0 = Float64.(d["a1"]), Float64.(d["a2"]), rows(d["alpha0"])
     A, B, C = rows(d["A"]), rows(d["B"]), rows(d["C"])

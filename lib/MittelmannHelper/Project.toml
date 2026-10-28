@@ -15,7 +15,7 @@ JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
 MittelmannHelperJuMPExt = "JuMP"
 
 [sources]
-ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "e6af4e04b40f84c662dea5b5e94090468093f869"}
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "58db52753d3a1f507389892b90649f80a74bfa77"}
 
 [compat]
 ExaModels = "0.14"
