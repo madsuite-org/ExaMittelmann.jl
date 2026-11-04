@@ -16,7 +16,7 @@ package:
 ```julia
 using Pkg
 Pkg.add(url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO",
-        rev = "58db52753d3a1f507389892b90649f80a74bfa77")
+        rev = "e5cb59f6c2e638891c5058a49f8c65992d245d28")
 Pkg.add(url = "https://github.com/madsuite-org/ExaMittelmann.jl")
 ```
 
@@ -68,7 +68,7 @@ the same way (`gen/extra.jl`):
 
 ExaMittelmann needs ExaModelsIO 0.1.1 (madsuite-org/ExaModels.jl#350), which reads data
 blocks with no columns (the constant terms of these models) and buffered subexpressions;
-until it is registered, the commit above is used.
+until it is registered, the merge commit of that PR on `main` is used.
 
 ## Packages in this repository
 

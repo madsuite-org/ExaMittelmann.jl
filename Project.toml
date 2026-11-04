@@ -15,7 +15,7 @@ ExaModelsIO = "0.1"
 julia = "1.11"
 
 [sources]
-ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "58db52753d3a1f507389892b90649f80a74bfa77"}
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "e5cb59f6c2e638891c5058a49f8c65992d245d28"}
 
 [extras]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
