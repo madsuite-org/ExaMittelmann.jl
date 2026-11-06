@@ -7,19 +7,34 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 ExaModels = "1037b233-b668-4ce9-9b63-f9f681f55dd2"
 ExaModelsIO = "5de388b7-cc24-42d7-844b-21625f2005ef"
 LazyArtifacts = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
+PrecompileTools = "aea7be01-6a6a-4083-8856-8a6e6704d82a"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 
+[weakdeps]
+AMDGPU = "21141c5a-9bdb-4563-92ae-f87d6854732e"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
+
+[extensions]
+ExaMittelmannAMDGPUExt = ["AMDGPU", "ExaModels", "KernelAbstractions"]
+ExaMittelmannCUDAExt = ["CUDA", "ExaModels", "KernelAbstractions"]
+ExaMittelmannKernelAbstractionsExt = ["ExaModels", "KernelAbstractions"]
+
 [compat]
-ExaModels = "0.14"
+AMDGPU = "2"
+CUDA = "6"
+KernelAbstractions = "0.10"
+ExaModels = "0.15"
 ExaModelsIO = "0.1"
+PrecompileTools = "1"
 julia = "1.11"
 
 [sources]
-ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "e5cb59f6c2e638891c5058a49f8c65992d245d28"}
+# `precompile_callbacks` is on ExaModels main and in no release; this pin becomes a version bound at the next release.
+ExaModels = {url = "https://github.com/madsuite-org/ExaModels.jl", rev = "cb86c81b29780b64617a8ae17f0093c18898c1e1"}
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "cb86c81b29780b64617a8ae17f0093c18898c1e1"}
 
 [extras]
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
