@@ -8,6 +8,7 @@ module ExaMittelmann
 
 using Artifacts, LazyArtifacts, TOML
 import ExaModels, ExaModelsIO
+import PrecompileTools
 
 export mittelmann, mittelmann_file, mittelmann_instances
 
@@ -31,7 +32,10 @@ first use.
 """
 function mittelmann_file(name::AbstractString)
     haskey(INSTANCES, name) || throw(ArgumentError("unknown Mittelmann instance $name"))
-    dir = LazyArtifacts.ensure_artifact_installed(name, ARTIFACTS_TOML)
+    # The installed case stays out of Pkg, whose logging is reached by runtime dispatch.
+    hash = Artifacts.artifact_hash(name, ARTIFACTS_TOML)
+    dir = hash !== nothing && Artifacts.artifact_exists(hash) ? Artifacts.artifact_path(hash) :
+        LazyArtifacts.ensure_artifact_installed(name, ARTIFACTS_TOML)
     return joinpath(dir, "$name.h5")
 end
 
@@ -50,5 +54,21 @@ function mittelmann(name::AbstractString; backend = nothing)
     end
     return ExaModelsIO.read_model(file; backend)
 end
+
+# Instance types depend on the expressions in the file, not on the instance size, so the
+# smallest instance of a family covers its larger ones.
+const _WORKLOAD = ("elec_200", "camshape_1600", "gasoil_1600", "qcqp500-1c", "robot_800",
+                   "dirichlet40", "marine_800", "pinene_1600")
+
+function _precompile_workload(backend = nothing)
+    call = Base.invokelatest
+    for name in _WORKLOAD
+        m = backend === nothing ? call(mittelmann, name) : call(mittelmann, name; backend)
+        ExaModels.precompile_callbacks(m)
+    end
+    return nothing
+end
+
+PrecompileTools.@compile_workload _precompile_workload()
 
 end # module ExaMittelmann
