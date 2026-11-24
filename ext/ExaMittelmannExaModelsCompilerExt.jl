@@ -11,9 +11,9 @@ import ExaModelsCompiler
 import ExaModelsIO
 using ExaModelsCompiler: compile_library, select
 
-# An instance name is not always a C identifier (`qcqp500-1c`); the prefix replaces
-# every other character with `_`.
-_prefix(name::AbstractString) = Symbol(replace(name, r"[^A-Za-z0-9_]" => "_"))
+# An instance name is not always a C identifier (`qcqp500-1c`); the prefix is the name in
+# lowercase with every other character replaced by `_` (`narx_cfy`, `qcqp500_1c`).
+_prefix(name::AbstractString) = Symbol(replace(lowercase(name), r"[^a-z0-9_]" => "_"))
 
 _buffered(name) = get(ExaMittelmann.INSTANCES[name], "buffered", false)
 
@@ -22,7 +22,7 @@ _buffered(name) = get(ExaMittelmann.INSTANCES[name], "buffered", false)
                 exclude = (), kwargs...)
 
 Compile the instances named in `problems` into one shared library, each as a fixed
-model under its name with non-identifier characters replaced by `_`. The default is
+model under its name in lowercase with non-identifier characters replaced by `_`. The default is
 the instances scored in the benchmark table with at most 100,000 variables, 41 of
 the 47.
 """

@@ -62,7 +62,7 @@ using CNLPLib, MadNLP
 madnlp(CNLPModel("@mittelmann", :clnlbeam))
 ```
 
-Instance names that are not C identifiers have `-` replaced by `_` (`qcqp500_3c`). To build
+Instances are named in lowercase, with `-` replaced by `_` (`narx_cfy`, `qcqp500_3c`). To build
 the library yourself, with ExaModelsCompiler loaded:
 `compile_all(ExaMittelmann; path = "mittelmann", bundle = true)` (add `device = :cuda` for the
 CUDA tier, `problems = [...]` for other instances).
