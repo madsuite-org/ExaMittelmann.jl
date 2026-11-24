@@ -1,11 +1,10 @@
 # Compiling Mittelmann instances into one shared library.
 #
 # Every instance is a fixed model read from its ExaModelsIO file, so its data is
-# compiled into the library with it: the library grows with the instances in it, and
-# `problems` picks them, and `chunk = (k, N)` compiles the k-th of N parts, which cnlplib's
+# compiled into the library with it. The library grows with the instances in it, and
+# `problems` picks them; `chunk = (k, N)` compiles the k-th of N parts, which cnlplib's
 # library workflow builds in parallel and joins. Instances with buffered subexpressions
-# (`WM_CFy`) are left out,
-# since `juliac --trim` does not compile their Hessian.
+# (`WM_CFy`) are left out, since `juliac --trim` does not compile their Hessian.
 module ExaMittelmannExaModelsCompilerExt
 
 import ExaMittelmann
