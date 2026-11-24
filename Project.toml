@@ -13,11 +13,13 @@ TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
 [weakdeps]
 AMDGPU = "21141c5a-9bdb-4563-92ae-f87d6854732e"
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+ExaModelsCompiler = "3d1e9a26-5b74-4f0c-9a2b-7c8f4e11d3a7"
 KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
 
 [extensions]
 ExaMittelmannAMDGPUExt = ["AMDGPU", "ExaModels", "KernelAbstractions"]
 ExaMittelmannCUDAExt = ["CUDA", "ExaModels", "KernelAbstractions"]
+ExaMittelmannExaModelsCompilerExt = "ExaModelsCompiler"
 ExaMittelmannKernelAbstractionsExt = ["ExaModels", "KernelAbstractions"]
 
 [compat]
@@ -25,14 +27,15 @@ AMDGPU = "2"
 CUDA = "6"
 KernelAbstractions = "0.10"
 ExaModels = "0.15"
+ExaModelsCompiler = "0.4"
 ExaModelsIO = "0.1"
 PrecompileTools = "1"
 julia = "1.11"
 
 [sources]
-# `precompile_callbacks` is on ExaModels main and in no release; this pin becomes a version bound at the next release.
-ExaModels = {url = "https://github.com/madsuite-org/ExaModels.jl", rev = "cb86c81b29780b64617a8ae17f0093c18898c1e1"}
-ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "cb86c81b29780b64617a8ae17f0093c18898c1e1"}
+# `read_core` (madsuite-org/ExaModels.jl, branch puma/read-core) is in no release yet; this pin
+# becomes `ExaModelsIO = "0.1.2"` once it is registered.
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "puma/read-core"}
 
 [extras]
 NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
