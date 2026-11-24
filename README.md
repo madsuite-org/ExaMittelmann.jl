@@ -41,6 +41,32 @@ using MadNLP, MadNLPGPU
 madnlp(g)
 ```
 
+## Compiled library
+
+The benchmark instances are also published as one compiled shared library implementing the
+[cnlp ABI](https://cnlplib.madsuite.org), with CPU and CUDA evaluation and no Julia needed to
+use it. It holds the instances scored in the benchmark table with at most 100,000 variables,
+except `WM_CFy`, whose buffered subexpressions `juliac --trim` does not compile (41 of the 47).
+Each instance is a fixed model, with its data compiled in. Each push to `main` updates the
+`nightly` release, and each registered version gets its own release:
+
+```sh
+cnlp install mittelmann@nightly    # the latest build of main (https://cnlplib.madsuite.org)
+cnlp solve @mittelmann:clnlbeam
+```
+
+From Julia, through [CNLPLib.jl](https://github.com/madsuite-org/CNLPLib.jl):
+
+```julia
+using CNLPLib, MadNLP
+madnlp(CNLPModel("@mittelmann", :clnlbeam))
+```
+
+Instances are named in lowercase, with `-` replaced by `_` (`narx_cfy`, `qcqp500_3c`). To build
+the library yourself, with ExaModelsCompiler loaded:
+`compile_all(ExaMittelmann; path = "mittelmann", bundle = true)` (add `device = :cuda` for the
+CUDA tier, `problems = [...]` for other instances).
+
 ## How the instances were built
 
 The AMPL sources at `plato.asu.edu/ftp/ampl-nlp-source/` were translated to `.nl` by AMPL
