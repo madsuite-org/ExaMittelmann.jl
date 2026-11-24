@@ -33,11 +33,11 @@ PrecompileTools = "1"
 julia = "1.11"
 
 [sources]
-# `read_core` (madsuite-org/ExaModels.jl#379) is in no release yet; these pins become
+# `read_core` (madsuite-org/ExaModels.jl#379, merged) is in no release yet; these pins become
 # `ExaModelsIO = "0.1.2"` once it is registered. ExaModels comes from the same checkout,
 # since ExaModelsIO takes it from there (`path = ".."`).
-ExaModels = {url = "https://github.com/madsuite-org/ExaModels.jl", rev = "puma/read-core"}
-ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "puma/read-core"}
+ExaModels = {url = "https://github.com/madsuite-org/ExaModels.jl", rev = "93a1c7ca87f3c22956f8c389b2eadfe81b68c052"}
+ExaModelsIO = {url = "https://github.com/madsuite-org/ExaModels.jl", subdir = "ExaModelsIO", rev = "93a1c7ca87f3c22956f8c389b2eadfe81b68c052"}
 
 [extras]
 NLPModels = "a4795742-8479-5a88-8948-cc11e1c8c1a6"
