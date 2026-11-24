@@ -13,8 +13,10 @@ on:
 
 jobs:
   library:
-    uses: madsuite-org/cnlplib/.github/workflows/library.yml@main
+    uses: madsuite-org/cnlplib/.github/workflows/library.yml@puma/chunked
     with:
       name: mittelmann
+      chunks: "9"
+      cnlplib-ref: puma/chunked   # until madsuite-org/cnlplib#12 is merged
     permissions:
       contents: write

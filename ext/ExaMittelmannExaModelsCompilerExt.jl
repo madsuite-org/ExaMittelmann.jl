@@ -2,7 +2,9 @@
 #
 # Every instance is a fixed model read from its ExaModelsIO file, so its data is
 # compiled into the library with it: the library grows with the instances in it, and
-# `problems` picks them. Instances with buffered subexpressions (`WM_CFy`) are left out,
+# `problems` picks them, and `chunk = (k, N)` compiles the k-th of N parts, which cnlplib's
+# library workflow builds in parallel and joins. Instances with buffered subexpressions
+# (`WM_CFy`) are left out,
 # since `juliac --trim` does not compile their Hessian.
 module ExaMittelmannExaModelsCompilerExt
 
@@ -18,24 +20,31 @@ _prefix(name::AbstractString) = Symbol(replace(lowercase(name), r"[^a-z0-9_]" =>
 _buffered(name) = get(ExaMittelmann.INSTANCES[name], "buffered", false)
 
 """
-    compile_all(ExaMittelmann; path = "@mittelmann", problems, only = nothing,
-                exclude = (), kwargs...)
+    compile_all(ExaMittelmann; path = "@mittelmann", problems, chunk = nothing,
+                only = nothing, exclude = (), kwargs...)
 
 Compile the instances named in `problems` into one shared library, each as a fixed
 model under its name in lowercase with non-identifier characters replaced by `_`. The default is
 the instances scored in the benchmark table with at most 100,000 variables, 41 of
-the 47.
+the 47. `chunk = (k, N)` compiles only the k-th (from 0) of N interleaved parts of the
+sorted list.
 """
 function ExaModelsCompiler.compile_all(
     ::Val{ExaMittelmann};
     path = "@mittelmann",
     problems = [n for n in ExaMittelmann.mittelmann_instances(; benchmark = true)
                 if ExaMittelmann.INSTANCES[n]["nvar"] <= 100_000 && !_buffered(n)],
+    chunk = nothing,
     only = nothing,
     exclude = (),
     kwargs...,
 )
     names = sort!(unique(String.(problems)))
+    if chunk !== nothing
+        k, n = chunk
+        0 <= k < n || throw(ArgumentError("chunk = ($k, $n): need 0 <= k < N"))
+        names = names[(k + 1):n:end]   # interleaved, so large and small instances spread out
+    end
     bad = filter(_buffered, names)
     isempty(bad) || throw(ArgumentError("instances with buffered subexpressions cannot be compiled: $(join(bad, ", "))"))
     pairs = [_prefix(n) => n for n in names]
